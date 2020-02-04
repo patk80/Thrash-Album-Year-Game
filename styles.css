@@ -1,0 +1,15 @@
+.container {
+    height: 700px;
+    width: 500px;
+    text-align: center;
+}
+
+#flagArtwork {
+    height: 50px;
+    width: 80px;
+}
+
+#albumArtwork {
+    height: 300px;
+    width: 300px;
+}
