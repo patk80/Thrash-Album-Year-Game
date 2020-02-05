@@ -1,15 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 .container {
-    height: 700px;
-    width: 500px;
+    background-color: rgb(202, 202, 202);
+    border: solid black 1px;
+    font-family: "Metal Mania";
+    height: 550px;
+    margin: 10px auto;
     text-align: center;
+    width: 450px;
 }
 
+h1 { margin: 10px; }
+
 #flagArtwork {
-    height: 50px;
-    width: 80px;
+    height: 40px;
+    width: 70px;
+}
+
+#countryTextContent { margin-bottom: 10px; }
+
+#albumTextContent {
+    font-weight: bold;
+    margin: 5px;
 }
 
 #albumArtwork {
     height: 300px;
     width: 300px;
+}
+
+#randomButton {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    font-family: "Metal Mania";
+    height: 25px;
+    text-align: center;
+    width: 125px;
+}
+
+input {
+    font-family: "Metal Mania";
+    height: 21px;
+    text-align: center;
 }
