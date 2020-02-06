@@ -106,31 +106,25 @@ function randomAlbum() {
     document.querySelector("#albumTextContent").textContent   = Array[randomIndex].artist + " — " + Array[randomIndex].album;
     document.querySelector("#albumArtwork").src               = Array[randomIndex].albumURL;
     document.querySelector("#flagArtwork").src                = Array[randomIndex].countryURL;
-    // console.log(albumYear + " is the random album's year");  troubleshooting //
-    // Need to reset albumYear value after each cycle through - keeps comparing to previous albumYear variables //
-    // Take submitButton function out of randomAlbum function? - did that & declared albumYear globally vs locally in randomAlbum //
+// console.log(albumYear + " is the random album's year");  Uncomment if you want the answer to show in the JS console //
 };
 
-
 var currentScore = 0;
+var currentTurn  = 0;
 var submitButton = document.querySelector("#submitButton");
-submitButton.addEventListener("click", function(){
-    var inputValue   = document.querySelector("input").value;
-    //console.log("Input value: " + inputValue); troubleshooting //
-    //console.log("Album year: " + albumYear);   troubleshooting //
 
+submitButton.addEventListener("click", function(){
+
+    var inputValue   = document.querySelector("input").value;
+    currentTurn++;
+    document.querySelector("#currentTurnDisplay").textContent = currentTurn;
     if(inputValue == albumYear){
-        //console.log("Correct guess!!!"); troubleshooting //
         document.body.style.backgroundColor = "green";
         currentScore++;
         document.querySelector("#currentScoreDisplay").textContent = currentScore;
     } else {
-        //console.log("WRONG guess"); troubleshooting //
         document.body.style.backgroundColor = "red";
     }
     randomAlbum(); // generate new random album on screen after submitting answer //
 
-
 });
-// https://stackoverflow.com/questions/11295142/reset-javascript-function //
-// https://www.codecademy.com/forum_questions/55f8bf5386f5529536000458?locale=en //
