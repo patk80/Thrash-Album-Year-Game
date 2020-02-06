@@ -1,5 +1,21 @@
 var Array = [
     {
+        album: "Show No Mercy",
+        albumURL: "https://vinyl-records.nl/S/SL/Slayer/Show-White/A0353-SLAYER-Show-No-Mercy-White-Vinyl-Large.jpg",
+        artist: "Slayer",
+        country: "Los Angeles, USA",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1983,
+    },
+    {
+        album: "Ride the Lightning",
+        albumURL: "https://www.revolvermag.com/sites/default/files/styles/original_image__844px_x_473px_/public/media/section-media/ridethelightning.jpg?itok=Fd0KtaS2&timestamp=1549044407",
+        artist: "Metallica",
+        country: "San Francisco, USA (Originally from L.A.)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1984,
+    },
+    {
         album: "Spreading the Disease",
         albumURL: "https://m.media-amazon.com/images/I/51gVyF2IA+L._SS500_SS500_.jpg",
         artist: "Anthrax",
@@ -48,6 +64,14 @@ var Array = [
         year: 1989,
     },
     {
+        album: "A Higher Form of Killing",
+        albumURL: "https://img.discogs.com/5d2PZ3WfVoJM2zBMbs1WOv0S_xE=/fit-in/600x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3460509-1350565798-8081.jpeg.jpg",
+        artist: "Intruder",
+        country: "Nashville, USA",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1989,
+    },
+    {
         album: "By Inheritance",
         albumURL: "https://img.discogs.com/l61uCwSUfmrvB3YQq7wCibYzOrU=/fit-in/600x585/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1716084-1441211510-6502.jpeg.jpg",
         artist: "Artillery",
@@ -62,36 +86,51 @@ var Array = [
         country: "Preston, Lancashire (England)",
         countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
         year: 1990,
+    },
+    {
+        album: "The Electric Age",
+        albumURL: "https://images-na.ssl-images-amazon.com/images/I/81QWy75zDiL._SL1425_.jpg",
+        artist: "Overkill",
+        country: "New Jersey, USA",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 2012,
     }
 ];
 
 function randomAlbum() {
-    var randomIndex = Math.floor( Math.random() * (Array.length) );
-    var albumYear   = Array[randomIndex].year;
+    var randomIndex  = Math.floor( Math.random() * (Array.length) );
+    var randomButton = document.querySelector("#randomButton")
+    albumYear        = Array[randomIndex].year;
+    randomButton.style.visibility = "hidden";
     document.querySelector("#countryTextContent").textContent = Array[randomIndex].country;
     document.querySelector("#albumTextContent").textContent   = Array[randomIndex].artist + " — " + Array[randomIndex].album;
     document.querySelector("#albumArtwork").src               = Array[randomIndex].albumURL;
     document.querySelector("#flagArtwork").src                = Array[randomIndex].countryURL;
-
-    // need to reset albumYear value after each cycle through - keeps comparing to first albumYear variable //
-    var submitButton = document.querySelector("#submitButton");
-    submitButton.addEventListener("click", function(){
-        var inputValue = document.querySelector("input").value;
-        console.log("Input value: " + inputValue); //troubleshooting //
-        console.log("Album year: " + albumYear);   //troubleshooting //
-
-        if(inputValue == albumYear){
-            console.log("Correct guess!!!");
-        } else {
-            console.log("WRONG guess");
-        }
-
-    });
-    // need to reset albumYear value after each cycle through - keeps comparing to first albumYear variable //
-
-
+    // console.log(albumYear + " is the random album's year");  troubleshooting //
+    // Need to reset albumYear value after each cycle through - keeps comparing to previous albumYear variables //
+    // Take submitButton function out of randomAlbum function? - did that & declared albumYear globally vs locally in randomAlbum //
 };
 
-// https://stackoverflow.com/questions/11295142/reset-javascript-function //
 
+var currentScore = 0;
+var submitButton = document.querySelector("#submitButton");
+submitButton.addEventListener("click", function(){
+    var inputValue   = document.querySelector("input").value;
+    //console.log("Input value: " + inputValue); troubleshooting //
+    //console.log("Album year: " + albumYear);   troubleshooting //
+
+    if(inputValue == albumYear){
+        //console.log("Correct guess!!!"); troubleshooting //
+        document.body.style.backgroundColor = "green";
+        currentScore++;
+        document.querySelector("#currentScoreDisplay").textContent = currentScore;
+    } else {
+        //console.log("WRONG guess"); troubleshooting //
+        document.body.style.backgroundColor = "red";
+    }
+    randomAlbum(); // generate new random album on screen after submitting answer //
+
+
+});
+// https://stackoverflow.com/questions/11295142/reset-javascript-function //
 // https://www.codecademy.com/forum_questions/55f8bf5386f5529536000458?locale=en //
