@@ -1,2 +1,2 @@
-# AlbumYearGame
-Album year game
+# MetalAlbumYearGame
+Metal Album Year Game
