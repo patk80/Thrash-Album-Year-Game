@@ -97,27 +97,31 @@ var Array = [
     }
 ];
 
+var submitButton = document.querySelector("#submitButton");
+var input        = document.querySelector("input");
+
 function randomAlbum() {
     var randomIndex  = Math.floor( Math.random() * (Array.length) );
     var randomButton = document.querySelector("#randomButton")
     albumYear        = Array[randomIndex].year;
-    randomButton.style.visibility = "hidden";
+    randomButton.style.display = "none";
+    submitButton.style.visibility = "visible";
+    input.style.visibility        = "visible";
     document.querySelector("#countryTextContent").textContent = Array[randomIndex].country;
     document.querySelector("#albumTextContent").textContent   = Array[randomIndex].artist + " — " + Array[randomIndex].album;
     document.querySelector("#albumArtwork").src               = Array[randomIndex].albumURL;
     document.querySelector("#flagArtwork").src                = Array[randomIndex].countryURL;
-// console.log(albumYear + " is the random album's year");  Uncomment if you want the answer to show in the JS console //
+// console.log(albumYear + " is the random album's year");  Uncomment if you want answer to show in the JS console //
 };
 
 var currentScore = 0;
 var currentTurn  = 0;
-var submitButton = document.querySelector("#submitButton");
 
-submitButton.addEventListener("click", function(){
-
+submitButton.addEventListener("click", function() {
     var inputValue   = document.querySelector("input").value;
     currentTurn++;
     document.querySelector("#currentTurnDisplay").textContent = currentTurn;
+
     if(inputValue == albumYear){
         document.body.style.backgroundColor = "green";
         currentScore++;
@@ -125,6 +129,7 @@ submitButton.addEventListener("click", function(){
     } else {
         document.body.style.backgroundColor = "red";
     }
+
     randomAlbum(); // generate new random album on screen after submitting answer //
 
 });
