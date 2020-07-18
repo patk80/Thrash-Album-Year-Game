@@ -8,30 +8,32 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Metal+Mania&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
     <div class="container">
 
         <div id="score">
+
             Score: <span id=currentScoreDisplay>0</span> / <span id="currentTurnDisplay">0</span>
+
         </div>
 
         <h1>Guess Album Year:</h1>
-    
+
         <img id="flagArtwork" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Unknown_flag_-_European_version.png" alt="Flag Artwork">
-        
-        <div id="countryTextContent"> Country </div>
+
+        <div id="countryTextContent"> City, Country </div>
 
         <div id="albumTextContent"> Artist &mdash; Album </div>
 
         <img id="albumArtwork" src="https://cdn.pixabay.com/photo/2012/04/23/15/46/question-38629_960_720.png" alt="Album Artwork">
 
-        <button id="randomButton" onclick="randomAlbum()">START !</button>
+        <button id="randomButton" onclick="randomAlbum()">START</button>
 
         <input type="number" id="input" placeholder="album year ?">
 
         <button id="submitButton">Submit Guess</button>
-    
+
     </div>
 
     <script src="scripts.js"></script>
