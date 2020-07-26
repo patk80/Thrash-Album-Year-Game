@@ -115,23 +115,24 @@ function randomAlbum() {
 };
 
 var currentScore = 0;
-var currentTurn  = 1;
+var currentTurn  = 0;
 
 submitButton.addEventListener("click", function() {
     var inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
-    document.querySelector("#currentTurnDisplay").textContent = currentTurn;
-
+    
     if(inputValue === 0){
-        alert("Enter in a year");
+        alert("Please enter a year");
     } else if(inputValue === albumYear){
         document.body.classList.add("correct-answer");
         document.body.classList.remove("wrong-answer");
         currentScore++;
         currentTurn++;
         document.querySelector("#currentScoreDisplay").textContent = currentScore;
+        document.querySelector("#currentTurnDisplay").textContent = currentTurn;
         randomAlbum();
     } else {
         currentTurn++;
+        document.querySelector("#currentTurnDisplay").textContent = currentTurn;
         document.body.classList.add("wrong-answer");
         document.body.classList.remove("correct-answer");
         randomAlbum();
