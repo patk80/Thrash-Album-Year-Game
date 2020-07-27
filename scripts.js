@@ -8,6 +8,14 @@ var Array = [
         year: 1983,
     },
     {
+        album: "Kill 'Em All",
+        albumURL: "https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dw6503eaa3/images/releases/20150807_213844_7549_752889.jpeg",
+        artist: "Metallica",
+        country: "San Francisco, CA (USA) (Originally from L.A.)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1983,
+    },
+    {
         album: "Ride the Lightning",
         albumURL: "https://www.revolvermag.com/sites/default/files/styles/original_image__844px_x_473px_/public/media/section-media/ridethelightning.jpg?itok=Fd0KtaS2&timestamp=1549044407",
         artist: "Metallica",
@@ -16,11 +24,51 @@ var Array = [
         year: 1984,
     },
     {
+        album: "Fistful Of Metal",
+        albumURL: "https://upload.wikimedia.org/wikipedia/en/9/97/AnthraxFistfulOfMetal.jpg",
+        artist: "Anthrax",
+        country: "New York City, NY (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1984,
+    },
+    {
+        album: "War and Pain",
+        albumURL: "https://images-na.ssl-images-amazon.com/images/I/81ElJFg7LLL._SL1500_.jpg",
+        artist: "Voivod",
+        country: "Jonquière, Quebec (CAN)",
+        countryURL: "https://images-na.ssl-images-amazon.com/images/I/31udX7AlntL._AC_SX466_.jpg",
+        year: 1984,
+    },
+    {
         album: "Spreading the Disease",
         albumURL: "https://m.media-amazon.com/images/I/51gVyF2IA+L._SS500_SS500_.jpg",
         artist: "Anthrax",
         country: "New York City, NY (USA)",
         countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1985,
+    },
+    {
+        album: "Fear of Tomorrow",
+        albumURL: "https://img.discogs.com/1IXRbWe4vOnm9H_GKHgu9etqcbE=/fit-in/449x435/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1920658-1344771130-6074.jpeg.jpg",
+        artist: "Artillery",
+        country: "Taastrup, Denmark",
+        countryURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/2000px-Flag_of_Denmark.svg.png",
+        year: 1985,
+    },
+    {
+        album: "Power From Hell",
+        albumURL: "https://images-na.ssl-images-amazon.com/images/I/71fEuELyUNL._SY355_.jpg",
+        artist: "Onslaught",
+        country: "Bristol (England)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+        year: 1985,
+    },
+    {
+        album: "Evil Invaders",
+        albumURL: "https://images.genius.com/9f442a73adb50cd95601fe827fc8dc77.600x600x1.jpg",
+        artist: "Razor",
+        country: "Guelph, Ontario (CAN)",
+        countryURL: "https://images-na.ssl-images-amazon.com/images/I/31udX7AlntL._AC_SX466_.jpg",
         year: 1985,
     },
     {
@@ -40,10 +88,34 @@ var Array = [
         year: 1986,
     },
     {
+        album: "Doomsday for the Deceiver",
+        albumURL: "https://images-na.ssl-images-amazon.com/images/I/8122hZJx8vL._SL1500_.jpg",
+        artist: "Flotsam and Jetsam",
+        country: "Phoenix, AZ (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1986,
+    },
+    {
+        album: "Power and Pain",
+        albumURL: "https://dts-metal.com/data/W/Whiplash/1986.jpg",
+        artist: "Whiplash",
+        country: "Passaic, NJ (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1986,
+    },
+    {
         album: "Rising from the Sea",
         albumURL: "https://f4.bcbits.com/img/a1752593922_10.jpg",
         artist: "Exumer",
         country: "Wiesbaden, West Germany",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png",
+        year: 1987,
+    },
+    {
+        album: "Terrible Certainty",
+        albumURL: "https://images-na.ssl-images-amazon.com/images/I/81-sUhVSWKL._AC_SX569_.jpg",
+        artist: "Kreator",
+        country: "Essen, North Rhine-Westphalia, West Germany",
         countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png",
         year: 1987,
     },
@@ -60,6 +132,14 @@ var Array = [
         albumURL: "https://img.discogs.com/jGPZWfm4vL5W2i5oSGuHl7P8AVk=/fit-in/600x604/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-627048-1505988865-4604.jpeg.jpg",
         artist: "Atrophy",
         country: "Tucson, AZ (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1988,
+    },
+    {
+        album: "Rigor Mortis",
+        albumURL: "https://www.decibelmagazine.com/wp-content/uploads/2013/02/81bt2py-a9l-_sl1425_.jpg",
+        artist: "Rigor Mortis",
+        country: "Dallas-Ft. Worth, TX (USA)",
         countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
         year: 1988,
     },
@@ -160,12 +240,44 @@ var Array = [
         year: 1991,
     },
     {
+        album: "As Above, So Below",
+        albumURL: "https://img.discogs.com/9ezOQJYr-Gv-H2rqk9Da6DkTqYE=/fit-in/600x601/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-995506-1473330559-2425.jpeg.jpg",
+        artist: "Forced Entry",
+        country: "Seattle, WA (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1991,
+    },
+    {
+        album: "Time Does Not Heal",
+        albumURL: "https://img.discogs.com/DOSmOXZlDTQaTajzNyfoypU-trU=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2811635-1584578971-3764.jpeg.jpg",
+        artist: "Dark Angel",
+        country: "Downey, CA (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1991,
+    },
+    {
+        album: "Awakening",
+        albumURL: "https://images-na.ssl-images-amazon.com/images/I/41rOWyPUbOL.jpg",
+        artist: "Hexenhaus",
+        country: "Stockholm, Sweden",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/255px-Flag_of_Sweden.svg.png",
+        year: 1991,
+    },
+    {
         album: "Epidemic Of Violence",
         albumURL: "https://img.discogs.com/mtelQV-mXs5s-FLx3atyfCipqU0=/fit-in/460x454/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2428080-1306058421.jpeg.jpg",
         artist: "Demolition Hammer",
         country: "The Bronx, NY (USA)",
         countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
         year: 1992,
+    },
+    {
+        album: "My Friend Lonely",
+        albumURL: "https://f4.bcbits.com/img/a1949616139_10.jpg",
+        artist: "Cyclone Temple",
+        country: "Chicago, IL (USA)",
+        countryURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
+        year: 1994,
     }
 ];
 
@@ -207,6 +319,7 @@ submitButton.addEventListener("click", function() {
         document.querySelector("#currentTurnDisplay").textContent = currentTurn;
         document.body.classList.add("wrong-answer");
         document.body.classList.remove("correct-answer");
+        alert(albumYear + " was the correct answer");
         randomAlbum();
     }
 });

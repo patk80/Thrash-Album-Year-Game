@@ -13,11 +13,11 @@ body {
     border: solid #000 0.0625rem;
     border-radius: 0.3125rem;
     font-family: "Metal Mania", serif;
-    height: 95vh;
+    height: 90vh;
     letter-spacing: 0.125rem;
-    margin: 0.9375rem auto;
+    margin: 1rem auto;
     text-align: center;
-    width: 31.25rem;
+    width: 80vw;
 }
  
 #score {
@@ -29,8 +29,8 @@ body {
 }
 
 h1 { 
-    margin: 2.5rem 0 1.5rem 0; 
-    font-size: 3.125rem;
+    margin: 0.5rem 0; 
+    font-size: 3rem;
 }
  
 #flagArtwork {
@@ -39,12 +39,12 @@ h1 {
 }
 
 #countryTextContent { 
-    margin-bottom: 0.625rem; 
+    margin-bottom: 0.5rem; 
 }
 
 #albumTextContent {
     font-weight: bold;
-    margin: 2rem 0 0.3125rem 0;
+    margin: 1rem 0 0.3125rem 0;
 }
 
 #albumArtwork {
@@ -100,9 +100,37 @@ input {
 }
 
 .correct-answer {
-    background-color: green;
+    background-color: rgb(0, 139, 0);
 }
 
 .wrong-answer {
-    background-color: red;
+    background-color: rgb(235, 0, 0);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 900px) {
+    h1 { 
+        margin: 2.5rem 0 0.75rem 0; 
+        font-size: 3rem;
+    }
+
+    #albumArtwork {
+        height: 17rem;
+        width: 17rem;
+    }
+
+}
+
+@media only screen and (max-width: 465px) {
+    h1 { 
+        margin: 2.5rem 0 0.75rem 0; 
+        font-size: 2rem;
+    }
+
+    #albumArtwork {
+        height: 15rem;
+        width: 15rem;
+    }
+
 }
