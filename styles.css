@@ -120,6 +120,12 @@ input {
         width: 17rem;
     }
 
+    #score {
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+        margin: 0.17rem;
+    }
+
 }
 
 @media only screen and (max-width: 465px) {
@@ -131,6 +137,12 @@ input {
     #albumArtwork {
         height: 15rem;
         width: 15rem;
+    }
+
+    #score {
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
+        margin: 0.13rem;
     }
 
 }
