@@ -52,7 +52,7 @@ h1 {
 }
 
 #albumArtwork {
-    height: 40%;
+    height: 50%;
 }
 
 #randomButton {
@@ -121,19 +121,22 @@ input {
         margin: 1vh auto;
       }
       
-      .game {
+    .game {
         background-color: rgb(202, 202, 202);
         width: 90%;
         height: 90%;
-      }
-
+    }
 
     h1 { 
         font-size: 2rem;
     }
 
+    #albumTextContent {
+        margin: 0.5rem 0 0 0;
+    }
+
     #albumArtwork {
-        height: 30%
+        height: 40%
 
     }
 
