@@ -20,7 +20,7 @@ body {
     width: 90vw;
     height: 90vh;
     display: flex;
-    margin: 5vh auto;
+    margin: 2vh auto;
     justify-content: center;
     align-items: center;
   }
@@ -111,47 +111,37 @@ input {
 }
 
 /* MEDIA QUERIES */
-/* 
-@media only screen and (max-width: 900px) {
-    h1 { 
-        margin: 2.5rem 0 0.75rem 0; 
-        font-size: 3rem;
-    }
-
-    #albumArtwork {
-        height: 17rem;
-        width: 17rem;
-    }
-
-    #score {
-        font-size: 1.5rem;
-        letter-spacing: 0.05rem;
-        margin: 0.17rem;
-    }
-
-}
 
 @media only screen and (max-width: 465px) {
+
+    .main-container {
+        width: 90vw;
+        height: 70vh;
+        display: flex;
+        margin: 1vh auto;
+      }
+      
+      .game {
+        background-color: rgb(202, 202, 202);
+        width: 90%;
+        height: 90%;
+      }
+
+
     h1 { 
-        margin: 1.5rem 0 0.5rem 0; 
         font-size: 2rem;
     }
 
     #albumArtwork {
-        height: 13rem;
-        width: 13rem;
-    }
+        height: 30%
 
-    #score {
-        font-size: 1.25rem;
-        letter-spacing: 0.05rem;
-        margin: 0.13rem;
     }
 
     input {
-        font-size: 1.25rem;
-        height: 2rem;
-        margin: 0.5rem auto;
+        font-size: 1.5rem;
+        width: 70%;
+        height: 8%;
+        margin: 3% 0;
     }
 
-} */
+} 
