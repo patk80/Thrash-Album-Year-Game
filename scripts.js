@@ -283,6 +283,9 @@ var Array = [
 
 var submitButton = document.querySelector("#submitButton");
 var input        = document.querySelector("input");
+var background   = document.querySelector(".main-container");
+var currentScore = 0;
+var currentTurn  = 0;
 
 function randomAlbum() {
     var randomIndex  = Math.floor( Math.random() * (Array.length) );
@@ -298,17 +301,25 @@ function randomAlbum() {
 // console.log(albumYear + " is the random album's year");  Uncomment if you want answer to show in the JS console //
 };
 
-var currentScore = 0;
-var currentTurn  = 0;
-
 submitButton.addEventListener("click", function() {
+    checkAnswer();
+});
+
+
+input.addEventListener('keypress', function (e) {
+    if (e.keyCode === 13) {
+        checkAnswer();
+    }
+});
+
+function checkAnswer() {
     var inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
     
     if(inputValue === 0){
         alert("Please enter a year");
     } else if(inputValue === albumYear){
-        document.body.classList.add("correct-answer");
-        document.body.classList.remove("wrong-answer");
+        background.classList.add("correct-answer");
+        background.classList.remove("wrong-answer");
         currentScore++;
         currentTurn++;
         document.querySelector("#currentScoreDisplay").textContent = currentScore;
@@ -317,9 +328,9 @@ submitButton.addEventListener("click", function() {
     } else {
         currentTurn++;
         document.querySelector("#currentTurnDisplay").textContent = currentTurn;
-        document.body.classList.add("wrong-answer");
-        document.body.classList.remove("correct-answer");
+        background.classList.add("wrong-answer");
+        background.classList.remove("correct-answer");
         alert(albumYear + " was the correct answer");
         randomAlbum();
     }
-});
+}

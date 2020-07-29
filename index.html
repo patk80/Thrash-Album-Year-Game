@@ -10,27 +10,31 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="main-container">
 
-        <div id="score">
-            Score: <span id=currentScoreDisplay>0</span> / <span id="currentTurnDisplay">0</span>
+        <div class="game">
+
+            <div id="score">
+                Score: <span id=currentScoreDisplay>0</span> / <span id="currentTurnDisplay">0</span>
+            </div>
+
+            <h1>Guess Album Year:</h1>
+
+            <img id="flagArtwork" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Unknown_flag_-_European_version.png" alt="Flag Artwork">
+
+            <div id="countryTextContent"> City, Country </div>
+
+            <div id="albumTextContent"> Artist &mdash; Album </div>
+
+            <img id="albumArtwork" src="https://cdn.pixabay.com/photo/2012/04/23/15/46/question-38629_960_720.png" alt="Album Artwork">
+
+            <button id="randomButton" onclick="randomAlbum()">START</button>
+
+            <input type="text" id="input" placeholder="album year ?" maxlength="4">
+
+            <button id="submitButton">Submit Guess</button>
+            
         </div>
-
-        <h1>Guess Album Year:</h1>
-
-        <img id="flagArtwork" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Unknown_flag_-_European_version.png" alt="Flag Artwork">
-
-        <div id="countryTextContent"> City, Country </div>
-
-        <div id="albumTextContent"> Artist &mdash; Album </div>
-
-        <img id="albumArtwork" src="https://cdn.pixabay.com/photo/2012/04/23/15/46/question-38629_960_720.png" alt="Album Artwork">
-
-        <button id="randomButton" onclick="randomAlbum()">START</button>
-
-        <input type="text" id="input" placeholder="album year ?" maxlength="4">
-
-        <button id="submitButton">Submit Guess</button>
 
     </div>
 
