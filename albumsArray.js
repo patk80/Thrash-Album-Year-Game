@@ -1,7 +1,7 @@
 var albumsArray = [
     {
         album: "Show No Mercy",
-        imagePath: "img/1983ShowNoMercy.jpg",
+        imagePath: "img1983to1986/1983ShowNoMercy.jpg",
         artist: "Slayer",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -9,7 +9,7 @@ var albumsArray = [
     },
     {
         album: "Kill 'Em All",
-        imagePath: "img/1983KillEmAll.jpeg",
+        imagePath: "img1983to1986/1983KillEmAll.jpeg",
         artist: "Metallica",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -17,7 +17,7 @@ var albumsArray = [
     },
     {
         album: "Ride The Lightning",
-        imagePath: "img/1984RideTheLightning.jpg",
+        imagePath: "img1983to1986/1984RideTheLightning.jpg",
         artist: "Metallica",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -25,7 +25,7 @@ var albumsArray = [
     },
     {
         album: "No Escape",
-        imagePath: "img/1984NoEscape.jpg",
+        imagePath: "img1983to1986/1984NoEscape.jpg",
         artist: "Hexx",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -33,7 +33,7 @@ var albumsArray = [
     },
     {
         album: "Vengeance Of Hell",
-        imagePath: "img/1984VengeanceOfHell.jpg",
+        imagePath: "img1983to1986/1984VengeanceOfHell.jpg",
         artist: "Living Death",
         country: "Velbert, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -41,7 +41,7 @@ var albumsArray = [
     },
     {
         album: "All Hail To Thee",
-        imagePath: "img/1984AllHailToThee.jpeg",
+        imagePath: "img1983to1986/1984AllHailToThee.jpeg",
         artist: "Znöwhite",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -49,7 +49,7 @@ var albumsArray = [
     },
     {
         album: "Fistful Of Metal",
-        imagePath: "img/1984FistfulOfMetal.jpg",
+        imagePath: "img1983to1986/1984FistfulOfMetal.jpg",
         artist: "Anthrax",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -57,7 +57,7 @@ var albumsArray = [
     },
     {
         album: "War And Pain",
-        imagePath: "img/1984WarAndPain.jpg",
+        imagePath: "img1983to1986/1984WarAndPain.jpg",
         artist: "Voivod",
         country: "Jonquière, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -65,7 +65,7 @@ var albumsArray = [
     },
     {
         album: "Spreading The Disease",
-        imagePath: "img/1985SpreadingTheDisease.jpg",
+        imagePath: "img1983to1986/1985SpreadingTheDisease.jpg",
         artist: "Anthrax",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -73,7 +73,7 @@ var albumsArray = [
     },
     {
         album: "Dealing with It!",
-        imagePath: "img/1985DealingWithIt.jpg",
+        imagePath: "img1983to1986/1985DealingWithIt.jpg",
         artist: "D.R.I.",
         country: "Houston, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -81,7 +81,7 @@ var albumsArray = [
     },
     {
         album: "Metal Revolution",
-        imagePath: "img/1985MetalRevolution.jpg",
+        imagePath: "img1983to1986/1985MetalRevolution.jpg",
         artist: "Living Death",
         country: "Velbert, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -89,7 +89,7 @@ var albumsArray = [
     },
     {
         album: "Seven Churches",
-        imagePath: "img/1985SevenChurches.jpg",
+        imagePath: "img1983to1986/1985SevenChurches.jpg",
         artist: "Possessed",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -97,7 +97,7 @@ var albumsArray = [
     },
     {
         album: "Endless Pain",
-        imagePath: "img/1985EndlessPain.jpg",
+        imagePath: "img1983to1986/1985EndlessPain.jpg",
         artist: "Kreator",
         country: "Essen, North Rhine-Westphalia, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -105,7 +105,7 @@ var albumsArray = [
     },
     {
         album: "Fear Of Tomorrow",
-        imagePath: "img/1985FearOfTomorrow.jpg",
+        imagePath: "img1983to1986/1985FearOfTomorrow.jpg",
         artist: "Artillery",
         country: "Taastrup, Denmark",
         countryPath: "img/FlagDenmark.png",
@@ -113,7 +113,7 @@ var albumsArray = [
     },
     {
         album: "Hell Awaits",
-        imagePath: "img/1985HellAwaits.jpg",
+        imagePath: "img1983to1986/1985HellAwaits.jpg",
         artist: "Slayer",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -121,7 +121,7 @@ var albumsArray = [
     },
     {
         album: "Kill Or Be Killed",
-        imagePath: "img/1985KillOrBeKilled.png",
+        imagePath: "img1983to1986/1985KillOrBeKilled.png",
         artist: "Blessed Death",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -129,7 +129,7 @@ var albumsArray = [
     },
     {
         album: "Vicious Attack",
-        imagePath: "img/1985ViciousAttack.jpg",
+        imagePath: "img1983to1986/1985ViciousAttack.jpg",
         artist: "Abbatoir",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -137,7 +137,7 @@ var albumsArray = [
     },
     {
         album: "Tales Of Terror",
-        imagePath: "img/1985TalesOfTerror.jpg",
+        imagePath: "img1983to1986/1985TalesOfTerror.jpg",
         artist: "Hallows Eve",
         country: "Atlanta, GA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -145,7 +145,7 @@ var albumsArray = [
     },
     {
         album: "Bonded By Blood",
-        imagePath: "img/1985BondedByBlood.jpg",
+        imagePath: "img1983to1986/1985BondedByBlood.jpg",
         artist: "Exodus",
         country: "Richmond, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -153,7 +153,7 @@ var albumsArray = [
     },
     {
         album: "Power From Hell",
-        imagePath: "img/1985PowerFromHell.jpg",
+        imagePath: "img1983to1986/1985PowerFromHell.jpg",
         artist: "Onslaught",
         country: "Bristol (England)",
         countryPath: "img/FlagEngland.png",
@@ -161,7 +161,7 @@ var albumsArray = [
     },
     {
         album: "Infernal Overkill",
-        imagePath: "img/1985InfernalOverkill.jpg",
+        imagePath: "img1983to1986/1985InfernalOverkill.jpg",
         artist: "Destruction",
         country: "Weil am Rhein, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -169,7 +169,7 @@ var albumsArray = [
     },
     {
         album: "Feel The Fire",
-        imagePath: "img/1985FeelTheFire.jpg",
+        imagePath: "img1983to1986/1985FeelTheFire.jpg",
         artist: "Overkill",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -177,7 +177,7 @@ var albumsArray = [
     },
     {
         album: "Skeptics Apocalypse",
-        imagePath: "img/1985SkepticsApocalypse.jpg",
+        imagePath: "img1983to1986/1985SkepticsApocalypse.jpg",
         artist: "Agent Steel",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -185,7 +185,7 @@ var albumsArray = [
     },
     {
         album: "Evil Invaders",
-        imagePath: "img/1985EvilInvaders.jpg",
+        imagePath: "img1983to1986/1985EvilInvaders.jpg",
         artist: "Razor",
         country: "Guelph, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -193,7 +193,7 @@ var albumsArray = [
     },
     {
         album: "Executioner's Song",
-        imagePath: "img/1985ExecutionersSong.jpg",
+        imagePath: "img1983to1986/1985ExecutionersSong.jpg",
         artist: "Razor",
         country: "Guelph, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -201,7 +201,7 @@ var albumsArray = [
     },
     {
         album: "Speak English Or Die",
-        imagePath: "img/1985SpeakEnglishOrDie.jpg",
+        imagePath: "img1983to1986/1985SpeakEnglishOrDie.jpg",
         artist: "S.O.D.",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -209,7 +209,7 @@ var albumsArray = [
     },
     {
         album: "Carnivore",
-        imagePath: "img/1985Carnivore.jpg",
+        imagePath: "img1983to1986/1985Carnivore.jpg",
         artist: "Carnivore",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -217,7 +217,7 @@ var albumsArray = [
     },
     {
         album: "Raging Violence",
-        imagePath: "img/1985RagingViolence.png",
+        imagePath: "img1983to1986/1985RagingViolence.png",
         artist: "Hirax",
         country: "Buena Park, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -225,7 +225,7 @@ var albumsArray = [
     },
     {
         album: "Killing Is My Business... And Business Is Good!",
-        imagePath: "img/1985KillingIsMyBusiness.jpg",
+        imagePath: "img1983to1986/1985KillingIsMyBusiness.jpg",
         artist: "Megadeth",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -233,7 +233,7 @@ var albumsArray = [
     },
     {
         album: "Peace Sells... But Who's Buying?",
-        imagePath: "img/1986PeaceSells.jpg",
+        imagePath: "img1983to1986/1986PeaceSells.jpg",
         artist: "Megadeth",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -241,7 +241,7 @@ var albumsArray = [
     },
     {
         album: "Pleasure To Kill",
-        imagePath: "img/1986PleasureToKill.jpg",
+        imagePath: "img1983to1986/1986PleasureToKill.jpg",
         artist: "Kreator",
         country: "Essen, North Rhine-Westphalia, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -249,7 +249,7 @@ var albumsArray = [
     },
     {
         album: "Eternal Devastation",
-        imagePath: "img/1986EternalDevastation.jpg",
+        imagePath: "img1983to1986/1986EternalDevastation.jpg",
         artist: "Destruction",
         country: "Weil am Rhein, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -257,7 +257,7 @@ var albumsArray = [
     },
     {
         album: "The Force",
-        imagePath: "img/1986TheForce.jpg",
+        imagePath: "img1983to1986/1986TheForce.jpg",
         artist: "Onslaught",
         country: "Bristol (England)",
         countryPath: "img/FlagEngland.png",
@@ -265,7 +265,7 @@ var albumsArray = [
     },
     {
         album: "Malicious Intent",
-        imagePath: "img/1986MaliciousIntent.jpg",
+        imagePath: "img1983to1986/1986MaliciousIntent.jpg",
         artist: "Razor",
         country: "Guelph, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -273,7 +273,7 @@ var albumsArray = [
     },
     {
         album: "Morbid Visions",
-        imagePath: "img/1986MorbidVisions.jpg",
+        imagePath: "img1983to1986/1986MorbidVisions.jpg",
         artist: "Sepultura",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -281,7 +281,7 @@ var albumsArray = [
     },
     {
         album: "Hate, Fear And Power",
-        imagePath: "img/1986HateFearAndPower.jpg",
+        imagePath: "img1983to1986/1986HateFearAndPower.jpg",
         artist: "Hirax",
         country: "Buena Park, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -289,7 +289,7 @@ var albumsArray = [
     },
     {
         album: "Death & Insanity",
-        imagePath: "img/1986Death&Insanity.jpg",
+        imagePath: "img1983to1986/1986Death&Insanity.jpg",
         artist: "Hallows Eve",
         country: "Atlanta, GA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -297,7 +297,7 @@ var albumsArray = [
     },
     {
         album: "The Only Safe Place",
-        imagePath: "img/1986TheOnlySafePlace.jpg",
+        imagePath: "img1983to1986/1986TheOnlySafePlace.jpg",
         artist: "Abbatoir",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -305,7 +305,7 @@ var albumsArray = [
     },
     {
         album: "Torment In Fire",
-        imagePath: "img/1986TormentInFire.jpg",
+        imagePath: "img1983to1986/1986TormentInFire.jpg",
         artist: "Sacrifice",
         country: "Toronto, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -313,7 +313,7 @@ var albumsArray = [
     },
     {
         album: "Master Of Puppets",
-        imagePath: "img/1986MasterOfPuppets.jpg",
+        imagePath: "img1983to1986/1986MasterOfPuppets.jpg",
         artist: "Metallica",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -321,7 +321,7 @@ var albumsArray = [
     },
     {
         album: "Fit Of Anger",
-        imagePath: "img/1986FitOfAnger.jpg",
+        imagePath: "img1983to1986/1986FitOfAnger.jpg",
         artist: "Wrath",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -329,7 +329,7 @@ var albumsArray = [
     },
     {
         album: "Kawaleria Szatana",
-        imagePath: "img/1986KawaleriaSzatana.jpg",
+        imagePath: "img1983to1986/1986KawaleriaSzatana.jpg",
         artist: "Turbo",
         country: "Poznań, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -337,7 +337,7 @@ var albumsArray = [
     },
     {
         album: "The Rules Have Been Disturbed",
-        imagePath: "img/1986TheRulesHaveBeenDisturbed.jpg",
+        imagePath: "img1983to1986/1986TheRulesHaveBeenDisturbed.jpg",
         artist: "Mysto Dysto",
         country: "Coevorden (Netherlands)",
         countryPath: "img/FlagNetherlands.png",
@@ -345,7 +345,7 @@ var albumsArray = [
     },
     {
         album: "Darkness Descends",
-        imagePath: "img/1986DarknessDescends.jpg",
+        imagePath: "img1983to1986/1986DarknessDescends.jpg",
         artist: "Dark Angel",
         country: "Downey, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -353,7 +353,7 @@ var albumsArray = [
     },
     {
         album: "Reign In Blood",
-        imagePath: "img/1986ReignInBlood.jpg",
+        imagePath: "img1983to1986/1986ReignInBlood.jpg",
         artist: "Slayer",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -361,7 +361,7 @@ var albumsArray = [
     },
     {
         album: "666",
-        imagePath: "img/1986666.png",
+        imagePath: "img1983to1986/1986666.png",
         artist: "Kat",
         country: "Katowice, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -369,7 +369,7 @@ var albumsArray = [
     },
     {
         album: "Doomsday For The Deceiver",
-        imagePath: "img/1986DoomsdayForTheDeceiver.jpg",
+        imagePath: "img1983to1986/1986DoomsdayForTheDeceiver.jpg",
         artist: "Flotsam and Jetsam",
         country: "Phoenix, AZ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -377,7 +377,7 @@ var albumsArray = [
     },
     {
         album: "Beyond The Gates",
-        imagePath: "img/1986BeyondTheGates.jpg",
+        imagePath: "img1983to1986/1986BeyondTheGates.jpg",
         artist: "Possessed",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -385,7 +385,7 @@ var albumsArray = [
     },
     {
         album: "Power And Pain",
-        imagePath: "img/1986PowerAndPain.jpg",
+        imagePath: "img1983to1986/1986PowerAndPain.jpg",
         artist: "Whiplash",
         country: "Passaic, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -393,7 +393,7 @@ var albumsArray = [
     },
     {
         album: "Zombie Attack",
-        imagePath: "img/1986ZombieAttack.jpg",
+        imagePath: "img1983to1986/1986ZombieAttack.jpg",
         artist: "Tankard",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -401,7 +401,7 @@ var albumsArray = [
     },
     {
         album: "Possessed By Fire",
-        imagePath: "img/1986PossessedByFire.jpg",
+        imagePath: "img1983to1986/1986PossessedByFire.jpg",
         artist: "Exumer",
         country: "Wiesbaden, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -409,7 +409,7 @@ var albumsArray = [
     },
     {
         album: "Rrröööaaarrr",
-        imagePath: "img/1986Rrroooaaarrr.jpg",
+        imagePath: "img1983to1986/1986Rrroooaaarrr.jpg",
         artist: "Voivod",
         country: "Jonquière, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -417,7 +417,7 @@ var albumsArray = [
     },
     {
         album: "Brutal Destruction",
-        imagePath: "img/1986BrutalDestruction.jpg",
+        imagePath: "img1983to1986/1986BrutalDestruction.jpg",
         artist: "Cyclone",
         country: "Vilvoorde, Belgium",
         countryPath: "img/FlagBelgium.png",
@@ -425,7 +425,7 @@ var albumsArray = [
     },
     {
         album: "Game Over",
-        imagePath: "img/1986GameOver.jpg",
+        imagePath: "img1983to1986/1986GameOver.jpg",
         artist: "Nuclear Assault",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -433,15 +433,15 @@ var albumsArray = [
     },
     {
         album: "Life Of Dreams",
-        imagePath: "img/1986LifeOfDreams.jpg",
+        imagePath: "img1983to1986/1986LifeOfDreams.jpg",
         artist: "Crumbsuckers",
         country: "Long Island, NY (USA)",
         countryPath: "img/FlagUSA.png",
         year: 1986,
     },
     {
-        album: "Riders OF Doom",
-        imagePath: "img/1986RidersOfDoom.jpg",
+        album: "Riders Of Doom",
+        imagePath: "img1983to1986/1986RidersOfDoom.jpg",
         artist: "Deathrow",
         country: "Düsseldorf, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -449,7 +449,7 @@ var albumsArray = [
     },
     {
         album: "Into The Dark Past",
-        imagePath: "img/1986IntoTheDarkPast.jpg",
+        imagePath: "img1983to1986/1986IntoTheDarkPast.jpg",
         artist: "Angel Dust",
         country: "Dortmund, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -457,7 +457,7 @@ var albumsArray = [
     },
     {
         album: "Under The Spell",
-        imagePath: "img/1986UnderTheSpell.jpg",
+        imagePath: "img1983to1986/1986UnderTheSpell.jpg",
         artist: "Hexx",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -465,7 +465,7 @@ var albumsArray = [
     },
     {
         album: "Rising From The Sea",
-        imagePath: "img/1987RisingFromTheSea.jpg",
+        imagePath: "img1987/1987RisingFromTheSea.jpg",
         artist: "Exumer",
         country: "Wiesbaden, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -473,7 +473,7 @@ var albumsArray = [
     },
     {
         album: "Raging Steel",
-        imagePath: "img/1987RagingSteel.jpg",
+        imagePath: "img1987/1987RagingSteel.jpg",
         artist: "Deathrow",
         country: "Düsseldorf, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -481,7 +481,7 @@ var albumsArray = [
     },
     {
         album: "Persecution Mania",
-        imagePath: "img/1987PersecutionMania.jpg",
+        imagePath: "img1987/1987PersecutionMania.jpg",
         artist: "Sodom",
         country: "Gelsenkirchen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -489,7 +489,7 @@ var albumsArray = [
     },
     {
         album: "Forward To Termination",
-        imagePath: "img/1987ForwardToTermination.jpg",
+        imagePath: "img1987/1987ForwardToTermination.jpg",
         artist: "Sacrifice",
         country: "Toronto, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -497,7 +497,7 @@ var albumsArray = [
     },
     {
         album: "The Upcoming Terror",
-        imagePath: "img/1987TheUpcomingTerror.jpg",
+        imagePath: "img1987/1987TheUpcomingTerror.jpg",
         artist: "Assassin",
         country: "Düsseldorf, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -505,7 +505,7 @@ var albumsArray = [
     },
     {
         album: "Custom Killing",
-        imagePath: "img/1987CustomKilling.jpg",
+        imagePath: "img1987/1987CustomKilling.jpg",
         artist: "Razor",
         country: "Guelph, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -513,7 +513,7 @@ var albumsArray = [
     },
     {
         album: "Protected From Reality",
-        imagePath: "img/1987ProtectedFromReality.jpg",
+        imagePath: "img1987/1987ProtectedFromReality.jpg",
         artist: "Living Death",
         country: "Velbert, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -521,7 +521,7 @@ var albumsArray = [
     },
     {
         album: "Taking Over",
-        imagePath: "img/1987TakingOver.jpg",
+        imagePath: "img1987/1987TakingOver.jpg",
         artist: "Overkill",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -529,7 +529,7 @@ var albumsArray = [
     },
     {
         album: "...Conscience...",
-        imagePath: "img/1987Conscience.jpg",
+        imagePath: "img1987/1987Conscience.jpg",
         artist: "Overdose",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -537,7 +537,7 @@ var albumsArray = [
     },
     {
         album: "Pleasures Of The Flesh",
-        imagePath: "img/1987PleasuresOfTheFlesh.jpg",
+        imagePath: "img1987/1987PleasuresOfTheFlesh.jpg",
         artist: "Exodus",
         country: "Richmond, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -545,7 +545,7 @@ var albumsArray = [
     },
     {
         album: "Chemical Invasion",
-        imagePath: "img/1987ChemicalInvasion.jpg",
+        imagePath: "img1987/1987ChemicalInvasion.jpg",
         artist: "Tankard",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -553,7 +553,7 @@ var albumsArray = [
     },
     {
         album: "Terror Squad",
-        imagePath: "img/1987TerrorSquad.jpg",
+        imagePath: "img1987/1987TerrorSquad.jpg",
         artist: "Artillery",
         country: "Taastrup, Denmark",
         countryPath: "img/FlagDenmark.png",
@@ -561,7 +561,7 @@ var albumsArray = [
     },
     {
         album: "The Ultra-Violence",
-        imagePath: "img/1987TheUltraViolence.jpg",
+        imagePath: "img1987/1987TheUltraViolence.jpg",
         artist: "Death Angel",
         country: "Daly City, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -569,7 +569,7 @@ var albumsArray = [
     },
     {
         album: "Dead Brain Cells",
-        imagePath: "img/1987DeadBrainCells.jpg",
+        imagePath: "img1987/1987DeadBrainCells.jpg",
         artist: "DBC",
         country: "Montréal, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -577,7 +577,7 @@ var albumsArray = [
     },
     {
         album: "The Full Treatment",
-        imagePath: "img/1987TheFullTreatment.jpg",
+        imagePath: "img1987/1987TheFullTreatment.jpg",
         artist: "Aggression",
         country: "Montréal, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -585,7 +585,7 @@ var albumsArray = [
     },
     {
         album: "Destined For Extinction",
-        imagePath: "img/1987DestinedForExtinction.jpg",
+        imagePath: "img1987/1987DestinedForExtinction.jpg",
         artist: "Blessed Death",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -593,7 +593,7 @@ var albumsArray = [
     },
     {
         album: "Breaking The Silence",
-        imagePath: "img/1987BreakingTheSilence.jpg",
+        imagePath: "img1987/1987BreakingTheSilence.jpg",
         artist: "Heathen",
         country: "Sonora, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -601,7 +601,7 @@ var albumsArray = [
     },
     {
         album: "Pray For War",
-        imagePath: "img/1987PrayForWar.jpg",
+        imagePath: "img1987/1987PrayForWar.jpg",
         artist: "Virus",
         country: "Brighton (England)",
         countryPath: "img/FlagEngland.png",
@@ -609,7 +609,7 @@ var albumsArray = [
     },
     {
         album: "Killing Technology",
-        imagePath: "img/1987KillingTechnology.jpg",
+        imagePath: "img1987/1987KillingTechnology.jpg",
         artist: "Voivod",
         country: "Jonquière, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -617,7 +617,7 @@ var albumsArray = [
     },
     {
         album: "Crossover",
-        imagePath: "img/1987Crossover.jpg",
+        imagePath: "img1987/1987Crossover.jpg",
         artist: "D.R.I.",
         country: "Houston, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -625,7 +625,7 @@ var albumsArray = [
     },
     {
         album: "Schizophrenia",
-        imagePath: "img/1987Schizophrenia.png",
+        imagePath: "img1987/1987Schizophrenia.png",
         artist: "Sepultura",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -633,7 +633,7 @@ var albumsArray = [
     },
     {
         album: "Ostatni Wojownik",
-        imagePath: "img/1987OstatniWojownik.jpg",
+        imagePath: "img1987/1987OstatniWojownik.jpg",
         artist: "Turbo",
         country: "Poznań, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -641,7 +641,7 @@ var albumsArray = [
     },
     {
         album: "Nothing To Fear",
-        imagePath: "img/1987NothingToFear.jpg",
+        imagePath: "img1987/1987NothingToFear.jpg",
         artist: "Wrath",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -649,7 +649,7 @@ var albumsArray = [
     },
     {
         album: "Among The Living",
-        imagePath: "img/1987AmongTheLiving.jpg",
+        imagePath: "img1987/1987AmongTheLiving.jpg",
         artist: "Anthrax",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -657,7 +657,7 @@ var albumsArray = [
     },
     {
         album: "The Legacy",
-        imagePath: "img/1987TheLegacy.jpg",
+        imagePath: "img1987/1987TheLegacy.jpg",
         artist: "Testament",
         country: "Berkeley, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -665,7 +665,7 @@ var albumsArray = [
     },
     {
         album: "Split Image",
-        imagePath: "img/1987SplitImage.jpg",
+        imagePath: "img1987/1987SplitImage.jpg",
         artist: "Excel",
         country: "Venice, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -673,7 +673,7 @@ var albumsArray = [
     },
     {
         album: "Know Your Enemy",
-        imagePath: "img/1987KnowYourEnemy.jpg",
+        imagePath: "img1987/1987KnowYourEnemy.jpg",
         artist: "Lȧȧz Rockit",
         country: "Oakland, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -681,7 +681,7 @@ var albumsArray = [
     },
     {
         album: "World Circus",
-        imagePath: "img/1987WorldCircus.jpg",
+        imagePath: "img1987/1987WorldCircus.jpg",
         artist: "Toxik",
         country: "Peekskill, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -689,7 +689,7 @@ var albumsArray = [
     },
     {
         album: "Ignorance",
-        imagePath: "img/1987Ignorance.jpg",
+        imagePath: "img1987/1987Ignorance.jpg",
         artist: "Sacred Reich",
         country: "Phoenix, AZ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -697,7 +697,7 @@ var albumsArray = [
     },
     {
         album: "Unstoppable Force",
-        imagePath: "img/1987UnstoppableForce.jpg",
+        imagePath: "img1987/1987UnstoppableForce.jpg",
         artist: "Agent Steel",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -705,7 +705,7 @@ var albumsArray = [
     },
     {
         album: "Terror And Submission",
-        imagePath: "img/1987TerrorAndSubmission.jpg",
+        imagePath: "img1987/1987TerrorAndSubmission.jpg",
         artist: "Holy Terror",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -713,7 +713,7 @@ var albumsArray = [
     },
     {
         album: "Total Armageddon",
-        imagePath: "img/1987TotalArmageddon.jpg",
+        imagePath: "img1987/1987TotalArmageddon.jpg",
         artist: "Renegade",
         country: "Melbourne, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -721,7 +721,7 @@ var albumsArray = [
     },
     {
         album: "Strappado",
-        imagePath: "img/1987Strappado.jpg",
+        imagePath: "img1987/1987Strappado.jpg",
         artist: "Slaughter",
         country: "Toronto, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -729,7 +729,7 @@ var albumsArray = [
     },
     {
         album: "None Shall Defy",
-        imagePath: "img/1987NoneShallDefy.jpg",
+        imagePath: "img1987/1987NoneShallDefy.jpg",
         artist: "Infernäl Mäjesty",
         country: "Toronto, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -737,7 +737,7 @@ var albumsArray = [
     },
     {
         album: "Terrible Certainty",
-        imagePath: "img/1987TerribleCertainty.jpg",
+        imagePath: "img1987/1987TerribleCertainty.jpg",
         artist: "Kreator",
         country: "Essen, North Rhine-Westphalia, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -745,7 +745,7 @@ var albumsArray = [
     },
     {
         album: "Wilczy Pająk",
-        imagePath: "img/1987WilczyPajak.png",
+        imagePath: "img1987/1987WilczyPajak.png",
         artist: "Wolf Spider",
         country: "Łódź, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -753,7 +753,7 @@ var albumsArray = [
     },
     {
         album: "Mission Executed",
-        imagePath: "img/1987MissionExecuted.jpg",
+        imagePath: "img1987/1987MissionExecuted.jpg",
         artist: "Target",
         country: "Aalst, Belgium",
         countryPath: "img/FlagBelgium.png",
@@ -761,7 +761,7 @@ var albumsArray = [
     },
     {
         album: "Ticket To Mayhem",
-        imagePath: "img/1987TicketToMayhem.jpg",
+        imagePath: "img1987/1987TicketToMayhem.jpg",
         artist: "Whiplash",
         country: "Passaic, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -769,7 +769,7 @@ var albumsArray = [
     },
     {
         album: "Resisting Success",
-        imagePath: "img/1987ResistingSuccess.jpg",
+        imagePath: "img1987/1987ResistingSuccess.jpg",
         artist: "Hades",
         country: "Paramus, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -777,7 +777,7 @@ var albumsArray = [
     },
     {
         album: "Go And Live... Stay And Die",
-        imagePath: "img/1987GoAndLiveStayAndDie.jpg",
+        imagePath: "img1987/1987GoAndLiveStayAndDie.jpg",
         artist: "Vendetta",
         country: "Schweinfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -785,7 +785,7 @@ var albumsArray = [
     },
     {
         album: "Shark Attack",
-        imagePath: "img/1987SharkAttack.jpg",
+        imagePath: "img1987/1987SharkAttack.jpg",
         artist: "Wehrmacht",
         country: "Portland, OR (USA)",
         countryPath: "img/FlagUSA.png",
@@ -793,7 +793,7 @@ var albumsArray = [
     },
     {
         album: "Mayhemic Destruction",
-        imagePath: "img/1987MayhemicDestruction.jpg",
+        imagePath: "img1987/1987MayhemicDestruction.jpg",
         artist: "Mortal Sin",
         country: "Sydney, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -801,7 +801,7 @@ var albumsArray = [
     },
     {
         album: "Death Squad",
-        imagePath: "img/1987DeathSquad.jpg",
+        imagePath: "img1987/1987DeathSquad.jpg",
         artist: "Darkness",
         country: "Essen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -809,7 +809,7 @@ var albumsArray = [
     },
     {
         album: "R.I.P.",
-        imagePath: "img/1987RIP.jpg",
+        imagePath: "img1987/1987RIP.jpg",
         artist: "Coroner",
         country: "Zürich, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -817,7 +817,7 @@ var albumsArray = [
     },
     {
         album: "Razorback",
-        imagePath: "img/1987Razorback.jpg",
+        imagePath: "img1987/1987Razorback.jpg",
         artist: "I.N.C.",
         country: "Bridgeport, CT (USA)",
         countryPath: "img/FlagUSA.png",
@@ -825,7 +825,7 @@ var albumsArray = [
     },
     {
         album: "Retaliation",
-        imagePath: "img/1987Retaliation.jpg",
+        imagePath: "img1987/1987Retaliation.jpg",
         artist: "Carnivore",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -833,7 +833,7 @@ var albumsArray = [
     },
     {
         album: "Product Of Imagination",
-        imagePath: "img/1987ProductOfImagination.jpg",
+        imagePath: "img1987/1987ProductOfImagination.jpg",
         artist: "Paradox",
         country: "Würzburg, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -841,7 +841,7 @@ var albumsArray = [
     },
     {
         album: "At The Edge Of Damnation",
-        imagePath: "img/1987AtTheEdgeOfDamnation.jpg",
+        imagePath: "img1987/1987AtTheEdgeOfDamnation.jpg",
         artist: "Deathwish",
         country: "Brighton, East Sussex (England)",
         countryPath: "img/FlagEngland.png",
@@ -849,7 +849,7 @@ var albumsArray = [
     },
     {
         album: "Demon Preacher",
-        imagePath: "img/1988DemonPreacher.jpg",
+        imagePath: "img1988/1988DemonPreacher.jpg",
         artist: "Deathwish",
         country: "Brighton, East Sussex (England)",
         countryPath: "img/FlagEngland.png",
@@ -857,7 +857,7 @@ var albumsArray = [
     },
     {
         album: "The Visitor",
-        imagePath: "img/1988TheVisitor.jpg",
+        imagePath: "img1988/1988TheVisitor.jpg",
         artist: "I.N.C.",
         country: "Bridgeport, CT (USA)",
         countryPath: "img/FlagUSA.png",
@@ -865,7 +865,7 @@ var albumsArray = [
     },
     {
         album: "A Tribute To Insanity",
-        imagePath: "img/1988ATributeToInsanity.jpg",
+        imagePath: "img1988/1988ATributeToInsanity.jpg",
         artist: "Hexenhaus",
         country: "Stockholm, Sweden",
         countryPath: "img/FlagSweden.png",
@@ -873,7 +873,7 @@ var albumsArray = [
     },
     {
         album: "If At First You Don't Succeed",
-        imagePath: "img/1988IfAtFirstYouDontSucceed.jpg",
+        imagePath: "img1988/1988IfAtFirstYouDontSucceed.jpg",
         artist: "Hades",
         country: "Paramus, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -881,7 +881,7 @@ var albumsArray = [
     },
     {
         album: "Force Recon",
-        imagePath: "img/1988ForceRecon.jpg",
+        imagePath: "img1988/1988ForceRecon.jpg",
         artist: "Virus",
         country: "Brighton (England)",
         countryPath: "img/FlagEngland.png",
@@ -889,7 +889,7 @@ var albumsArray = [
     },
     {
         album: "Mind Wars",
-        imagePath: "img/1988MindWars.jpg",
+        imagePath: "img1988/1988MindWars.jpg",
         artist: "Holy Terror",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -897,7 +897,7 @@ var albumsArray = [
     },
     {
         album: "History Of A Time To Come",
-        imagePath: "img/1988HistoryOfATimeToCome.jpg",
+        imagePath: "img1988/1988HistoryOfATimeToCome.jpg",
         artist: "Sabbat",
         country: "Nottingham (England)",
         countryPath: "img/FlagEngland.png",
@@ -905,7 +905,7 @@ var albumsArray = [
     },
     {
         album: "Stone",
-        imagePath: "img/1988Stone.jpg",
+        imagePath: "img1988/1988Stone.jpg",
         artist: "Stone",
         country: "Kerava (Finland)",
         countryPath: "img/FlagFinland.png",
@@ -913,7 +913,7 @@ var albumsArray = [
     },
     {
         album: "Brain Damage",
-        imagePath: "img/1988BrainDamage.jpg",
+        imagePath: "img1988/1988BrainDamage.jpg",
         artist: "Vendetta",
         country: "Schweinfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -921,7 +921,7 @@ var albumsArray = [
     },
     {
         album: "Dawn For The Living",
-        imagePath: "img/1988DawnForTheLiving.jpg",
+        imagePath: "img1988/1988DawnForTheLiving.jpg",
         artist: "Grinder",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -929,7 +929,7 @@ var albumsArray = [
     },
     {
         album: "Frolic Through The Park",
-        imagePath: "img/1988FrolicThroughThePark.jpg",
+        imagePath: "img1988/1988FrolicThroughThePark.jpg",
         artist: "Death Angel",
         country: "Daly City, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -937,7 +937,7 @@ var albumsArray = [
     },
     {
         album: "Eternal Nightmare",
-        imagePath: "img/1988EternalNightmare.jpg",
+        imagePath: "img1988/1988EternalNightmare.jpg",
         artist: "Vio-lence",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -945,7 +945,7 @@ var albumsArray = [
     },
     {
         album: "Oddech Wymarłych Światów",
-        imagePath: "img/1988OddechWymarlychSwiatow.jpg",
+        imagePath: "img1988/1988OddechWymarlychSwiatow.jpg",
         artist: "Kat",
         country: "Katowice, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -953,7 +953,7 @@ var albumsArray = [
     },
     {
         album: "Violent Restitution",
-        imagePath: "img/1988ViolentRestitution.jpg",
+        imagePath: "img1988/1988ViolentRestitution.jpg",
         artist: "Razor",
         country: "Guelph, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -961,7 +961,7 @@ var albumsArray = [
     },
     {
         album: "Survive",
-        imagePath: "img/1988Survive.jpg",
+        imagePath: "img1988/1988Survive.jpg",
         artist: "Nuclear Assault",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -969,7 +969,7 @@ var albumsArray = [
     },
     {
         album: "State Of Euphoria",
-        imagePath: "img/1988StateOfEuphoria.jpg",
+        imagePath: "img1988/1988StateOfEuphoria.jpg",
         artist: "Anthrax",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -977,7 +977,7 @@ var albumsArray = [
     },
     {
         album: "The New Order",
-        imagePath: "img/1988TheNewOrder.jpg",
+        imagePath: "img1988/1988TheNewOrder.jpg",
         artist: "Testament",
         country: "Berkeley, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -985,7 +985,7 @@ var albumsArray = [
     },
     {
         album: "Say Uncle",
-        imagePath: "img/1988SayUncle.jpg",
+        imagePath: "img1988/1988SayUncle.jpg",
         artist: "Unlce Slam",
         country: "Beverly Hills, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -993,7 +993,7 @@ var albumsArray = [
     },
     {
         album: "Beast On My Back",
-        imagePath: "img/1988BeastOnMyBack.jpg",
+        imagePath: "img1988/1988BeastOnMyBack.jpg",
         artist: "Crumbsuckers",
         country: "Long Island, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1001,7 +1001,7 @@ var albumsArray = [
     },
     {
         album: "Dimension Hatröss",
-        imagePath: "img/1988DimensionHatross.jpg",
+        imagePath: "img1988/1988DimensionHatross.jpg",
         artist: "Voivod",
         country: "Jonquière, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -1009,7 +1009,7 @@ var albumsArray = [
     },
     {
         album: "Act Of God",
-        imagePath: "img/1988ActOfGod.jpg",
+        imagePath: "img1988/1988ActOfGod.jpg",
         artist: "Znöwhite",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1017,7 +1017,7 @@ var albumsArray = [
     },
     {
         album: "Initial Velocity",
-        imagePath: "img/1988InitialVelocity.jpg",
+        imagePath: "img1988/1988InitialVelocity.jpg",
         artist: "Mandator",
         country: "Coevorden (Netherlands)",
         countryPath: "img/FlagNetherlands.png",
@@ -1025,7 +1025,7 @@ var albumsArray = [
     },
     {
         album: "So Far, So Good... So What!",
-        imagePath: "img/1988SoFarSoGoodSoWhat.jpg",
+        imagePath: "img1988/1988SoFarSoGoodSoWhat.jpg",
         artist: "Megadeth",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1033,7 +1033,7 @@ var albumsArray = [
     },
     {
         album: "Rather Death Than False Of Faith",
-        imagePath: "img/1988RatherDeathThanFalseOfFaith.png",
+        imagePath: "img1988/1988RatherDeathThanFalseOfFaith.png",
         artist: "Hydra Vein",
         country: "Brighton (England)",
         countryPath: "img/FlagEngland.png",
@@ -1041,7 +1041,7 @@ var albumsArray = [
     },
     {
         album: "The Morning After",
-        imagePath: "img/1988TheMorningAfter.jpg",
+        imagePath: "img1988/1988TheMorningAfter.jpg",
         artist: "Tankard",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1049,7 +1049,7 @@ var albumsArray = [
     },
     {
         album: "Golem",
-        imagePath: "img/1988Golem.jpg",
+        imagePath: "img1988/1988Golem.jpg",
         artist: "Protector",
         country: "Wolfsburg, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1057,7 +1057,7 @@ var albumsArray = [
     },
     {
         album: "Ritually Abused",
-        imagePath: "img/1988RituallyAbused.jpg",
+        imagePath: "img1988/1988RituallyAbused.jpg",
         artist: "Num Skull",
         country: "Winthrop Harbor, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1065,7 +1065,7 @@ var albumsArray = [
     },
     {
         album: "The Daily Horror News",
-        imagePath: "img/1988TheDailyHorrorNews.jpg",
+        imagePath: "img1988/1988TheDailyHorrorNews.jpg",
         artist: "Risk",
         country: "Witten, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1073,7 +1073,7 @@ var albumsArray = [
     },
     {
         album: "...And Justice For All",
-        imagePath: "img/1988AndJusticeForAll.jpg",
+        imagePath: "img1988/1988AndJusticeForAll.jpg",
         artist: "Metallica",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1081,7 +1081,7 @@ var albumsArray = [
     },
     {
         album: "South Of Heaven",
-        imagePath: "img/1988SouthOfHeaven.jpg",
+        imagePath: "img1988/1988SouthOfHeaven.jpg",
         artist: "Slayer",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1089,7 +1089,7 @@ var albumsArray = [
     },
     {
         album: "To Dust You Will Decay",
-        imagePath: "img/1988ToDustYouWillDecay.jpg",
+        imagePath: "img1988/1988ToDustYouWillDecay.jpg",
         artist: "Angel Dust",
         country: "Dortmund, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1097,7 +1097,7 @@ var albumsArray = [
     },
     {
         album: "Socialized Hate",
-        imagePath: "img/1988SocializedHate.jpg",
+        imagePath: "img1988/1988SocializedHate.jpg",
         artist: "Atrophy",
         country: "Tucson, AZ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1105,7 +1105,7 @@ var albumsArray = [
     },
     {
         album: "Rigor Mortis",
-        imagePath: "img/1988RigorMortis.jpg",
+        imagePath: "img1988/1988RigorMortis.jpg",
         artist: "Rigor Mortis",
         country: "Dallas-Ft. Worth, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1113,7 +1113,7 @@ var albumsArray = [
     },
     {
         album: "Hell House",
-        imagePath: "img/1988HellHouse.jpg",
+        imagePath: "img1988/1988HellHouse.jpg",
         artist: "Holosade",
         country: "Darlington, (England)",
         countryPath: "img/FlagEngland.png",
@@ -1121,7 +1121,7 @@ var albumsArray = [
     },
     {
         album: "The Kindred",
-        imagePath: "img/1988TheKindred.jpg",
+        imagePath: "img1988/1988TheKindred.jpg",
         artist: "Pariah",
         country: "Newcastle (England)",
         countryPath: "img/FlagEngland.png",
@@ -1129,7 +1129,7 @@ var albumsArray = [
     },
     {
         album: "Interstellar Experience",
-        imagePath: "img/1988InterstellarExperience.jpg",
+        imagePath: "img1988/1988InterstellarExperience.jpg",
         artist: "Assassin",
         country: "Düsseldorf, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1137,7 +1137,7 @@ var albumsArray = [
     },
     {
         album: "Punishment For Decadence",
-        imagePath: "img/1988PunishmentForDecadence.jpg",
+        imagePath: "img1988/1988PunishmentForDecadence.jpg",
         artist: "Coroner",
         country: "Zürich, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -1145,7 +1145,7 @@ var albumsArray = [
     },
     {
         album: "Defenders Of Justice",
-        imagePath: "img/1988DefendersOfJustice.jpg",
+        imagePath: "img1988/1988DefendersOfJustice.jpg",
         artist: "Darkness",
         country: "Essen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1153,7 +1153,7 @@ var albumsArray = [
     },
     {
         album: "Release From Agony",
-        imagePath: "img/1988ReleaseFromAgony.jpg",
+        imagePath: "img1988/1988ReleaseFromAgony.jpg",
         artist: "Destruction",
         country: "Weil am Rhein, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1161,7 +1161,7 @@ var albumsArray = [
     },
     {
         album: "Change From Reality",
-        imagePath: "img/1988ChangeFromReality.jpg",
+        imagePath: "img1988/1988ChangeFromReality.jpg",
         artist: "Toxic Shock",
         country: "Eislingen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1169,7 +1169,7 @@ var albumsArray = [
     },
     {
         album: "Lifecycle",
-        imagePath: "img/1988Lifecycle.jpg",
+        imagePath: "img1988/1988Lifecycle.jpg",
         artist: "Sieges Even",
         country: "Munich, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1177,7 +1177,7 @@ var albumsArray = [
     },
     {
         album: "Refuge Denied",
-        imagePath: "img/1988RefugeDenied.jpg",
+        imagePath: "img1988/1988RefugeDenied.jpg",
         artist: "Sanctuary",
         country: "Seattle, WA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1185,7 +1185,7 @@ var albumsArray = [
     },
     {
         album: "Black Clouds",
-        imagePath: "img/1988BlackClouds.jpg",
+        imagePath: "img1988/1988BlackClouds.jpg",
         artist: "Outrage",
         country: "Nagoya, Japan",
         countryPath: "img/FlagJapan.jpg",
@@ -1193,7 +1193,7 @@ var albumsArray = [
     },
     {
         album: "Endless War",
-        imagePath: "img/1988EndlessWar.jpg",
+        imagePath: "img1988/1988EndlessWar.jpg",
         artist: "Realm",
         country: "Milwaukee, WI (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1201,7 +1201,7 @@ var albumsArray = [
     },
     {
         album: "4 Of A Kind",
-        imagePath: "img/19884OfAKind.jpg",
+        imagePath: "img1988/19884OfAKind.jpg",
         artist: "D.R.I.",
         country: "Houston, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1209,7 +1209,7 @@ var albumsArray = [
     },
     {
         album: "No Place For Disgrace",
-        imagePath: "img/1988NoPlaceForDisgrace.jpg",
+        imagePath: "img1988/1988NoPlaceForDisgrace.jpg",
         artist: "Flotsam and Jetsam",
         country: "Phoenix, AZ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1217,7 +1217,7 @@ var albumsArray = [
     },
     {
         album: "Monument",
-        imagePath: "img/1988Monument.jpg",
+        imagePath: "img1988/1988Monument.jpg",
         artist: "Hallows Eve",
         country: "Atlanta, GA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1225,7 +1225,7 @@ var albumsArray = [
     },
     {
         album: "Under The Influence",
-        imagePath: "img/1988UnderTheInfluence.jpg",
+        imagePath: "img1988/1988UnderTheInfluence.jpg",
         artist: "Overkill",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1233,7 +1233,7 @@ var albumsArray = [
     },
     {
         album: "Killer Instinct",
-        imagePath: "img/1988KillerInstinct.jpg",
+        imagePath: "img1988/1988KillerInstinct.jpg",
         artist: "Gothic Slam",
         country: "Jersey City, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1241,7 +1241,7 @@ var albumsArray = [
     },
     {
         album: "Forbidden Evil",
-        imagePath: "img/1988ForbiddenEvil.jpg",
+        imagePath: "img1988/1988ForbiddenEvil.jpg",
         artist: "Forbidden",
         country: "Hayward, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1249,7 +1249,7 @@ var albumsArray = [
     },
     {
         album: "Why Play Around?",
-        imagePath: "img/1988WhyPlayAround.jpg",
+        imagePath: "img1988/1988WhyPlayAround.jpg",
         artist: "Wargasm",
         country: "Boston, MA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1257,7 +1257,7 @@ var albumsArray = [
     },
     {
         album: "Angel Of Death",
-        imagePath: "img/1988AngelOfDeath.jpg",
+        imagePath: "img1988/1988AngelOfDeath.jpg",
         artist: "Hobbs' Angel of Death",
         country: "Melbourne, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -1265,7 +1265,7 @@ var albumsArray = [
     },
     {
         album: "Do Or Die",
-        imagePath: "img/1988DoOrDie.jpg",
+        imagePath: "img1988/1988DoOrDie.jpg",
         artist: "Viking",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1273,7 +1273,7 @@ var albumsArray = [
     },
     {
         album: "Power Of Darkness",
-        imagePath: "img/1988PowerOfDarkness.jpg",
+        imagePath: "img1988/1988PowerOfDarkness.jpg",
         artist: "Minotaur",
         country: "Halstenbeck, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1281,7 +1281,7 @@ var albumsArray = [
     },
     {
         album: "Prey",
-        imagePath: "img/1989Prey.jpg",
+        imagePath: "img1989/1989Prey.jpg",
         artist: "Loss For Words",
         country: "Elmira, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1289,7 +1289,7 @@ var albumsArray = [
     },
     {
         album: "Man Of Straw",
-        imagePath: "img/1989ManOfStraw.jpg",
+        imagePath: "img1989/1989ManOfStraw.jpg",
         artist: "Viking",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1297,7 +1297,7 @@ var albumsArray = [
     },
     {
         album: "Alice In Hell",
-        imagePath: "img/1989AliceInHell.jpg",
+        imagePath: "img1989/1989AliceInHell.jpg",
         artist: "Annihilator",
         country: "Ottawa, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -1305,7 +1305,7 @@ var albumsArray = [
     },
     {
         album: "Face Of Despair",
-        imagePath: "img/1989FaceOfDespair.png",
+        imagePath: "img1989/1989FaceOfDespair.png",
         artist: "Mortal Sin",
         country: "Sydney, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -1313,7 +1313,7 @@ var albumsArray = [
     },
     {
         album: "Perfect Progeny",
-        imagePath: "img/1989PerfectProgeny.jpg",
+        imagePath: "img1989/1989PerfectProgeny.jpg",
         artist: "Mandator",
         country: "Coevorden (Netherlands)",
         countryPath: "img/FlagNetherlands.png",
@@ -1321,7 +1321,7 @@ var albumsArray = [
     },
     {
         album: "Lost In Wonderland",
-        imagePath: "img/1989LostInWonderland.jpg",
+        imagePath: "img1989/1989LostInWonderland.jpg",
         artist: "Nuclear Simphony",
         country: "Favara, Italy",
         countryPath: "img/FlagItaly.png",
@@ -1329,7 +1329,7 @@ var albumsArray = [
     },
     {
         album: "The Years Of Decay",
-        imagePath: "img/1989TheYearsOfDecay.jpg",
+        imagePath: "img1989/1989TheYearsOfDecay.jpg",
         artist: "Overkill",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1337,7 +1337,7 @@ var albumsArray = [
     },
     {
         album: "No Anaesthesia!",
-        imagePath: "img/1989NoAnaesthesia.jpg",
+        imagePath: "img1989/1989NoAnaesthesia.jpg",
         artist: "Stone",
         country: "Kerava (Finland)",
         countryPath: "img/FlagFinland.png",
@@ -1345,7 +1345,7 @@ var albumsArray = [
     },
     {
         album: "Beware",
-        imagePath: "img/1989Beware.jpg",
+        imagePath: "img1989/1989Beware.jpg",
         artist: "Shah",
         country: "Moscow, Russia",
         countryPath: "img/FlagRussia.png",
@@ -1353,7 +1353,7 @@ var albumsArray = [
     },
     {
         album: "Deception Ignored",
-        imagePath: "img/1989DeceptionIgnored.jpg",
+        imagePath: "img1989/1989DeceptionIgnored.jpg",
         artist: "Deathrow",
         country: "Düsseldorf, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1361,7 +1361,7 @@ var albumsArray = [
     },
     {
         album: "The Joke's On You",
-        imagePath: "img/1989TheJokesOnYou.jpg",
+        imagePath: "img1989/1989TheJokesOnYou.jpg",
         artist: "Excel",
         country: "Venice, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1369,7 +1369,7 @@ var albumsArray = [
     },
     {
         album: "Dead End",
-        imagePath: "img/1989DeadEnd.jpg",
+        imagePath: "img1989/1989DeadEnd.jpg",
         artist: "Grinder",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1377,7 +1377,7 @@ var albumsArray = [
     },
     {
         album: "Dreamweaver",
-        imagePath: "img/1989Dreamweaver.jpg",
+        imagePath: "img1989/1989Dreamweaver.jpg",
         artist: "Sabbat",
         country: "Nottingham (England)",
         countryPath: "img/FlagEngland.png",
@@ -1385,7 +1385,7 @@ var albumsArray = [
     },
     {
         album: "Human Wreckage",
-        imagePath: "img/1989HumanWreckage.jpg",
+        imagePath: "img1989/1989HumanWreckage.jpg",
         artist: "D.A.M.",
         country: "Morecambe, Lancashire (England)",
         countryPath: "img/FlagEngland.png",
@@ -1393,7 +1393,7 @@ var albumsArray = [
     },
     {
         album: "Blaze Of Obscurity",
-        imagePath: "img/1989BlazeOfObscurity.jpg",
+        imagePath: "img1989/1989BlazeOfObscurity.jpg",
         artist: "Pariah",
         country: "Newcastle (England)",
         countryPath: "img/FlagEngland.png",
@@ -1401,7 +1401,7 @@ var albumsArray = [
     },
     {
         album: "After The Dream",
-        imagePath: "img/1989AfterTheDream.jpg",
+        imagePath: "img1989/1989AfterTheDream.jpg",
         artist: "Hydra Vein",
         country: "Brighton (England)",
         countryPath: "img/FlagEngland.png",
@@ -1409,7 +1409,7 @@ var albumsArray = [
     },
     {
         album: "Signs Of Life",
-        imagePath: "img/1989SignsOfLife.jpg",
+        imagePath: "img1989/1989SignsOfLife.jpg",
         artist: "Devastation",
         country: "Corpus Christi, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1417,7 +1417,7 @@ var albumsArray = [
     },
     {
         album: "Fabulous Disaster",
-        imagePath: "img/1989FabulousDisaster.jpg",
+        imagePath: "img1989/1989FabulousDisaster.jpg",
         artist: "Exodus",
         country: "Richmond, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1425,7 +1425,7 @@ var albumsArray = [
     },
     {
         album: "Lunacy",
-        imagePath: "img/1989Lunacy.jpg",
+        imagePath: "img1989/1989Lunacy.jpg",
         artist: "Virus",
         country: "Brighton (England)",
         countryPath: "img/FlagEngland.png",
@@ -1433,7 +1433,7 @@ var albumsArray = [
     },
     {
         album: "Pity Of Man",
-        imagePath: "img/1989PityOfMan.jpg",
+        imagePath: "img1989/1989PityOfMan.jpg",
         artist: "Addictive",
         country: "Sydney, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -1441,7 +1441,7 @@ var albumsArray = [
     },
     {
         album: "Practice What You Preach",
-        imagePath: "img/1989PracticeWhatYouPreach.jpg",
+        imagePath: "img1989/1989PracticeWhatYouPreach.jpg",
         artist: "Testament",
         country: "Berkeley, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1449,7 +1449,7 @@ var albumsArray = [
     },
     {
         album: "In Search Of Sanity",
-        imagePath: "img/1989InSearchOfSanity.jpg",
+        imagePath: "img1989/1989InSearchOfSanity.jpg",
         artist: "Onslaught",
         country: "Bristol (England)",
         countryPath: "img/FlagEngland.png",
@@ -1457,7 +1457,7 @@ var albumsArray = [
     },
     {
         album: "Nothingface",
-        imagePath: "img/1989Nothingface.jpg",
+        imagePath: "img1989/1989Nothingface.jpg",
         artist: "Voivod",
         country: "Jonquière, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -1465,7 +1465,7 @@ var albumsArray = [
     },
     {
         album: "Handle With Care",
-        imagePath: "img/1989HandleWithCare.jpg",
+        imagePath: "img1989/1989HandleWithCare.jpg",
         artist: "Nuclear Assault",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1473,7 +1473,7 @@ var albumsArray = [
     },
     {
         album: "Worlds Neuroses",
-        imagePath: "img/1989WorldsNeuroses.jpg",
+        imagePath: "img1989/1989WorldsNeuroses.jpg",
         artist: "Living Death",
         country: "Velbert, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1481,7 +1481,7 @@ var albumsArray = [
     },
     {
         album: "Hell's Animals",
-        imagePath: "img/1989HellsAnimals.jpg",
+        imagePath: "img1989/1989HellsAnimals.jpg",
         artist: "Risk",
         country: "Witten, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1489,7 +1489,7 @@ var albumsArray = [
     },
     {
         album: "Annihilation Principle",
-        imagePath: "img/1989AnnihilationPrinciple.jpg",
+        imagePath: "img1989/1989AnnihilationPrinciple.jpg",
         artist: "Lȧȧz Rockit",
         country: "Oakland, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1497,7 +1497,7 @@ var albumsArray = [
     },
     {
         album: "Epidemie",
-        imagePath: "img/1989Epidemie.jpg",
+        imagePath: "img1989/1989Epidemie.jpg",
         artist: "Turbo",
         country: "Poznań, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -1505,7 +1505,7 @@ var albumsArray = [
     },
     {
         album: "Just A Face In The Crowd",
-        imagePath: "img/1989JustAFaceInTheCrowd.jpg",
+        imagePath: "img1989/1989JustAFaceInTheCrowd.jpg",
         artist: "Gothic Slam",
         country: "Jersey City, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1513,7 +1513,7 @@ var albumsArray = [
     },
     {
         album: "No More Color",
-        imagePath: "img/1989NoMoreColor.jpg",
+        imagePath: "img1989/1989NoMoreColor.jpg",
         artist: "Coroner",
         country: "Zürich, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -1521,7 +1521,7 @@ var albumsArray = [
     },
     {
         album: "Think This",
-        imagePath: "img/1989ThinkThis.jpg",
+        imagePath: "img1989/1989ThinkThis.jpg",
         artist: "Toxik",
         country: "Peekskill, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1529,7 +1529,7 @@ var albumsArray = [
     },
     {
         album: "Climbin' The Walls",
-        imagePath: "img/1989ClimbinTheWalls.jpg",
+        imagePath: "img1989/1989ClimbinTheWalls.jpg",
         artist: "Wrathchild America",
         country: "Baltimore, MD (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1537,7 +1537,7 @@ var albumsArray = [
     },
     {
         album: "Thrash Zone",
-        imagePath: "img/1989ThrashZone.jpg",
+        imagePath: "img1989/1989ThrashZone.jpg",
         artist: "D.R.I.",
         country: "Houston, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1545,7 +1545,7 @@ var albumsArray = [
     },
     {
         album: "Product Of Society",
-        imagePath: "img/1989ProductOfSociety.jpg",
+        imagePath: "img1989/1989ProductOfSociety.jpg",
         artist: "Defiance",
         country: "Oakland, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1553,7 +1553,7 @@ var albumsArray = [
     },
     {
         album: "Human Hell",
-        imagePath: "img/1989HumanHell.jpg",
+        imagePath: "img1989/1989HumanHell.jpg",
         artist: "Harter Attack",
         country: "Waterford Works, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1561,7 +1561,7 @@ var albumsArray = [
     },
     {
         album: "Punishment Area",
-        imagePath: "img/1989PunishmentArea.jpg",
+        imagePath: "img1989/1989PunishmentArea.jpg",
         artist: "Faith or Fear",
         country: "Philadelphia, PA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1569,7 +1569,7 @@ var albumsArray = [
     },
     {
         album: "The New Machine Of Liechtenstein",
-        imagePath: "img/1989TheNewMachineOfLiechtenstein.png",
+        imagePath: "img1989/1989TheNewMachineOfLiechtenstein.png",
         artist: "Holy Moses",
         country: "Aachen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1577,7 +1577,7 @@ var albumsArray = [
     },
     {
         album: "Heresey",
-        imagePath: "img/1989Heresey.jpg",
+        imagePath: "img1989/1989Heresey.jpg",
         artist: "Paradox",
         country: "Würzburg, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1585,7 +1585,7 @@ var albumsArray = [
     },
     {
         album: "Extreme Aggression",
-        imagePath: "img/1989ExtremeAggression.jpg",
+        imagePath: "img1989/1989ExtremeAggression.jpg",
         artist: "Kreator",
         country: "Essen, North Rhine-Westphalia, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1593,7 +1593,7 @@ var albumsArray = [
     },
     {
         album: "Beneath The Remains",
-        imagePath: "img/1989BeneathTheRemains.jpg",
+        imagePath: "img1989/1989BeneathTheRemains.jpg",
         artist: "Sepultura",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -1601,7 +1601,7 @@ var albumsArray = [
     },
     {
         album: "You're Really Big!",
-        imagePath: "img/1989YoureReallyBig.jpg",
+        imagePath: "img1989/1989YoureReallyBig.jpg",
         artist: "Overdose",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -1609,7 +1609,7 @@ var albumsArray = [
     },
     {
         album: "Agent Orange",
-        imagePath: "img/1989AgentOrange.jpg",
+        imagePath: "img1989/1989AgentOrange.jpg",
         artist: "Sodom",
         country: "Gelsenkirchen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -1617,7 +1617,7 @@ var albumsArray = [
     },
     {
         album: "Depression",
-        imagePath: "img/1989Depression.jpg",
+        imagePath: "img1989/1989Depression.jpg",
         artist: "Poltergeist",
         country: "Liestal, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -1625,7 +1625,7 @@ var albumsArray = [
     },
     {
         album: "Master Project Genesis",
-        imagePath: "img/1989MasterProjectGenesis.jpg",
+        imagePath: "img1989/1989MasterProjectGenesis.jpg",
         artist: "Target",
         country: "Aalst, Belgium",
         countryPath: "img/FlagBelgium.png",
@@ -1633,7 +1633,7 @@ var albumsArray = [
     },
     {
         album: "Annihilation Of Civilization",
-        imagePath: "img/1989AnnihilationOfCivilization.jpg",
+        imagePath: "img1989/1989AnnihilationOfCivilization.jpg",
         artist: "Evildead",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1641,7 +1641,7 @@ var albumsArray = [
     },
     {
         album: "A Higher Form Of Killing",
-        imagePath: "img/1989AHigherFormOfKilling.jpg",
+        imagePath: "img1989/1989AHigherFormOfKilling.jpg",
         artist: "Intruder",
         country: "Nashville, TN (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1649,7 +1649,7 @@ var albumsArray = [
     },
     {
         album: "Leave Scars",
-        imagePath: "img/1989LeaveScars.jpg",
+        imagePath: "img1989/1989LeaveScars.jpg",
         artist: "Dark Angel",
         country: "Downey, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1657,7 +1657,7 @@ var albumsArray = [
     },
     {
         album: "Insult To Injury",
-        imagePath: "img/1989InsultToInjury.jpg",
+        imagePath: "img1989/1989InsultToInjury.jpg",
         artist: "Whiplash",
         country: "Passaic, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1665,7 +1665,7 @@ var albumsArray = [
     },
     {
         album: "Victims Of Science",
-        imagePath: "img/1989VictimsOfScience.jpg",
+        imagePath: "img1989/1989VictimsOfScience.jpg",
         artist: "Gammacide",
         country: "Arlington, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1673,7 +1673,7 @@ var albumsArray = [
     },
     {
         album: "Universe",
-        imagePath: "img/1989Universe.jpg",
+        imagePath: "img1989/1989Universe.jpg",
         artist: "DBC",
         country: "Montréal, Quebec (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -1681,7 +1681,7 @@ var albumsArray = [
     },
     {
         album: "Control And Resistance",
-        imagePath: "img/1989ControlAndResistance.jpg",
+        imagePath: "img1989/1989ControlAndResistance.jpg",
         artist: "Watchtower",
         country: "Austin, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1689,7 +1689,7 @@ var albumsArray = [
     },
     {
         album: "Fool's Game",
-        imagePath: "img/1989FoolsGame.jpg",
+        imagePath: "img1989/1989FoolsGame.jpg",
         artist: "Mordred",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1697,7 +1697,7 @@ var albumsArray = [
     },
     {
         album: "Absolute Power",
-        imagePath: "img/1989AbsolutePower.jpg",
+        imagePath: "img1989/1989AbsolutePower.jpg",
         artist: "Powermad",
         country: "Minneapolis, MN (USA)",
         countryPath: "img/FlagUSA.png",
@@ -1705,7 +1705,7 @@ var albumsArray = [
     },
     {
         album: "Limits Of Insanity",
-        imagePath: "img/1989LimitsOfInsanity.jpg",
+        imagePath: "img1989/1989LimitsOfInsanity.jpg",
         artist: "Attomica",
         country: "São José dos Campos, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -1713,7 +1713,7 @@ var albumsArray = [
     },
     {
         album: "Shattered Existence",
-        imagePath: "img/1989ShatteredExistence.jpg",
+        imagePath: "img1989/1989ShatteredExistence.jpg",
         artist: "Xentrix",
         country: "Preston, Lancashire (England)",
         countryPath: "img/FlagEngland.png",
@@ -1721,7 +1721,7 @@ var albumsArray = [
     },
     {
         album: "The Fear",
-        imagePath: "img/1989TheFear.jpeg",
+        imagePath: "img1989/1989TheFear.jpeg",
         artist: "Acid Reign",
         country: "Harrogate, Yorkshire (England)",
         countryPath: "img/FlagEngland.png",
@@ -1729,7 +1729,7 @@ var albumsArray = [
     },
     {
         album: "The Work Of Idle Hands...",
-        imagePath: "img/1989TheWorkOfIdleHands.jpg",
+        imagePath: "img1989/1989TheWorkOfIdleHands.jpg",
         artist: "Slammer",
         country: "Bradford (England)",
         countryPath: "img/FlagEngland.png",
@@ -2073,7 +2073,7 @@ var albumsArray = [
     },
     {
         album: "Victims Of Deception",
-        imagePath: "img/1991VictimsOfDeception.jpg",
+        imagePath: "img1991Plus/1991VictimsOfDeception.jpg",
         artist: "Heathen",
         country: "Sonora, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2081,7 +2081,7 @@ var albumsArray = [
     },
     {
         album: "Killing In Action",
-        imagePath: "img/1991KillingInAction.jpg",
+        imagePath: "img1991Plus/1991KillingInAction.jpg",
         artist: "Living Death",
         country: "Velbert, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2089,7 +2089,7 @@ var albumsArray = [
     },
     {
         album: "Horrorscope",
-        imagePath: "img/1991Horrorscope.jpg",
+        imagePath: "img1991Plus/1991Horrorscope.jpg",
         artist: "Overkill",
         country: "Old Bridge, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2097,7 +2097,7 @@ var albumsArray = [
     },
     {
         album: "Nothing Is Sacred",
-        imagePath: "img/1991NothingIsSacred.jpg",
+        imagePath: "img1991Plus/1991NothingIsSacred.jpg",
         artist: "Grinder",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2105,7 +2105,7 @@ var albumsArray = [
     },
     {
         album: "Beyond",
-        imagePath: "img/1991Beyond.jpg",
+        imagePath: "img1991Plus/1991Beyond.jpg",
         artist: "Jester's March",
         country: "Dortmund, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2113,7 +2113,7 @@ var albumsArray = [
     },
     {
         album: "Terror Collection",
-        imagePath: "img/1991TerrorCollection.jpg",
+        imagePath: "img1991Plus/1991TerrorCollection.jpg",
         artist: "Shah",
         country: "Moscow, Russia",
         countryPath: "img/FlagRussia.png",
@@ -2121,7 +2121,7 @@ var albumsArray = [
     },
     {
         album: "Morbid Reality",
-        imagePath: "img/1991MorbidReality.jpg",
+        imagePath: "img1991Plus/1991MorbidReality.jpg",
         artist: "Hexx",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2129,7 +2129,7 @@ var albumsArray = [
     },
     {
         album: "Play God",
-        imagePath: "img/1991PlayGod.jpg",
+        imagePath: "img1991Plus/1991PlayGod.jpg",
         artist: "Reverend",
         country: "Seattle, WA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2137,7 +2137,7 @@ var albumsArray = [
     },
     {
         album: "Open Hostility",
-        imagePath: "img/1991OpenHostility.jpg",
+        imagePath: "img1991Plus/1991OpenHostility.jpg",
         artist: "Razor",
         country: "Guelph, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -2145,7 +2145,7 @@ var albumsArray = [
     },
     {
         album: "Behind My Mask",
-        imagePath: "img/1991BehindMyMask.jpg",
+        imagePath: "img1991Plus/1991BehindMyMask.jpg",
         artist: "Poltergeist",
         country: "Liestal, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -2153,7 +2153,7 @@ var albumsArray = [
     },
     {
         album: "Stretch Of The Imagination",
-        imagePath: "img/1991StretchOfTheImagination.jpg",
+        imagePath: "img1991Plus/1991StretchOfTheImagination.jpg",
         artist: "Taramis",
         country: "Melbourne, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -2161,7 +2161,7 @@ var albumsArray = [
     },
     {
         album: "Emotional Playground",
-        imagePath: "img/1991EmotionalPlayground.jpg",
+        imagePath: "img1991Plus/1991EmotionalPlayground.jpg",
         artist: "Stone",
         country: "Kerava (Finland)",
         countryPath: "img/FlagFinland.png",
@@ -2169,7 +2169,7 @@ var albumsArray = [
     },
     {
         album: "Idolatry",
-        imagePath: "img/1991Idolatry.jpg",
+        imagePath: "img1991Plus/1991Idolatry.jpg",
         artist: "Devastation",
         country: "Corpus Christi, TX (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2177,7 +2177,7 @@ var albumsArray = [
     },
     {
         album: "Drifting In The Sullen Sea",
-        imagePath: "img/1991DriftingInTheSullenSea.jpg",
+        imagePath: "img1991Plus/1991DriftingInTheSullenSea.jpg",
         artist: "Wolf Spider",
         country: "Łódź, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -2185,7 +2185,7 @@ var albumsArray = [
     },
     {
         album: "Hue Of Evil",
-        imagePath: "img/1991HueOfEvil.jpg",
+        imagePath: "img1991Plus/1991HueOfEvil.jpg",
         artist: "Wolf Spider",
         country: "Łódź, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -2193,7 +2193,7 @@ var albumsArray = [
     },
     {
         album: "Psycho Savant",
-        imagePath: "img/1991PsychoSavant.jpg",
+        imagePath: "img1991Plus/1991PsychoSavant.jpg",
         artist: "Intruder",
         country: "Nashville, TN (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2201,7 +2201,7 @@ var albumsArray = [
     },
     {
         album: "Third In Order Of The Sun",
-        imagePath: "img/1991ThirdInOrderOfTheSun.jpg",
+        imagePath: "img1991Plus/1991ThirdInOrderOfTheSun.jpg",
         artist: "Terrahsphere",
         country: "Nashua, NH (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2209,7 +2209,7 @@ var albumsArray = [
     },
     {
         album: "Immortal Entity",
-        imagePath: "img/1989ImmortalEntity.jpg",
+        imagePath: "img1991Plus/1989ImmortalEntity.jpg",
         artist: "Alligator",
         country: "Vigevano, Italy",
         countryPath: "img/FlagItaly.png",
@@ -2217,7 +2217,7 @@ var albumsArray = [
     },
     {
         album: "Probability Of Doom",
-        imagePath: "img/1991ProbabilityOfDoom.jpg",
+        imagePath: "img1991Plus/1991ProbabilityOfDoom.jpg",
         artist: "Terminator",
         country: "Bzenec, Czech Republic",
         countryPath: "img/FlagCzech.jpg",
@@ -2225,7 +2225,7 @@ var albumsArray = [
     },
     {
         album: "3-D",
-        imagePath: "img/19913D.png",
+        imagePath: "img1991Plus/19913D.png",
         artist: "Wrathchild America",
         country: "Baltimore, MD (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2233,7 +2233,7 @@ var albumsArray = [
     },
     {
         album: "Mourning Has Broken",
-        imagePath: "img/1991MourningHasBroken.jpg",
+        imagePath: "img1991Plus/1991MourningHasBroken.jpg",
         artist: "Sabbat",
         country: "Nottingham (England)",
         countryPath: "img/FlagEngland.png",
@@ -2241,7 +2241,7 @@ var albumsArray = [
     },
     {
         album: "Mental Vortex",
-        imagePath: "img/1991MentalVortex.jpg",
+        imagePath: "img1991Plus/1991MentalVortex.jpg",
         artist: "Coroner",
         country: "Zürich, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -2249,7 +2249,7 @@ var albumsArray = [
     },
     {
         album: "Arise",
-        imagePath: "img/1991Arise.jpg",
+        imagePath: "img1991Plus/1991Arise.jpg",
         artist: "Sepultura",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -2257,7 +2257,7 @@ var albumsArray = [
     },
     {
         album: "Disturbing The Noise",
-        imagePath: "img/1991DisturbingTheNoise.jpg",
+        imagePath: "img1991Plus/1991DisturbingTheNoise.jpg",
         artist: "Attomica",
         country: "São José dos Campos, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -2265,7 +2265,7 @@ var albumsArray = [
     },
     {
         album: "Balance Of Power",
-        imagePath: "img/1991BalanceOfPower.jpg",
+        imagePath: "img1991Plus/1991BalanceOfPower.jpg",
         artist: "Arbitrater",
         country: "Warwick (England)",
         countryPath: "img/FlagEngland.png",
@@ -2273,7 +2273,7 @@ var albumsArray = [
     },
     {
         album: "The Underworld",
-        imagePath: "img/1991TheUnderworld.jpg",
+        imagePath: "img1991Plus/1991TheUnderworld.jpg",
         artist: "Evildead",
         country: "Los Angeles, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2281,7 +2281,7 @@ var albumsArray = [
     },
     {
         album: "I Hate Therefore I Am",
-        imagePath: "img/1991IHateThereforeIAm.jpg",
+        imagePath: "img1991Plus/1991IHateThereforeIAm.jpg",
         artist: "Cyclone Temple",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2289,7 +2289,7 @@ var albumsArray = [
     },
     {
         album: "As Above, So Below",
-        imagePath: "img/1991AsAboveSoBelow.jpg",
+        imagePath: "img1991Plus/1991AsAboveSoBelow.jpg",
         artist: "Forced Entry",
         country: "Seattle, WA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2297,7 +2297,7 @@ var albumsArray = [
     },
     {
         album: "Time Does Not Heal",
-        imagePath: "img/1991TimeDoesNotHeal.jpg",
+        imagePath: "img1991Plus/1991TimeDoesNotHeal.jpg",
         artist: "Dark Angel",
         country: "Downey, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2305,7 +2305,7 @@ var albumsArray = [
     },
     {
         album: "Awakening",
-        imagePath: "img/1991Awakening.jpg",
+        imagePath: "img1991Plus/1991Awakening.jpg",
         artist: "Hexenhaus",
         country: "Stockholm, Sweden",
         countryPath: "img/FlagSweden.png",
@@ -2313,7 +2313,7 @@ var albumsArray = [
     },
     {
         album: "Meanless Propaganda",
-        imagePath: "img/1991MeanlessPropaganda.jpg",
+        imagePath: "img1991Plus/1991MeanlessPropaganda.jpg",
         artist: "Deathblow",
         country: "Tokyo, Japan",
         countryPath: "img/FlagJapan.jpg",
@@ -2321,7 +2321,7 @@ var albumsArray = [
     },
     {
         album: "Let Us Not Talk Falsely",
-        imagePath: "img/1991LetUsNotTalkFalsely.jpg",
+        imagePath: "img1991Plus/1991LetUsNotTalkFalsely.jpg",
         artist: "LawShed",
         country: "Tokyo, Japan",
         countryPath: "img/FlagJapan.jpg",
@@ -2329,7 +2329,7 @@ var albumsArray = [
     },
     {
         album: "Futurity And Human Depressions",
-        imagePath: "img/1991FuturityAndHumanDepressions.jpg",
+        imagePath: "img1991Plus/1991FuturityAndHumanDepressions.jpg",
         artist: "Osiris",
         country: "Kampen (Netherlands)",
         countryPath: "img/FlagNetherlands.png",
@@ -2337,7 +2337,7 @@ var albumsArray = [
     },
     {
         album: "Nothing's Sacred",
-        imagePath: "img/1991NothingsSacred.jpg",
+        imagePath: "img1991Plus/1991NothingsSacred.jpg",
         artist: "Lȧȧz Rockit",
         country: "Oakland, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2345,7 +2345,7 @@ var albumsArray = [
     },
     {
         album: "Epidemic Of Violence",
-        imagePath: "img/1992EpidemicOfViolence.jpg",
+        imagePath: "img1991Plus/1992EpidemicOfViolence.jpg",
         artist: "Demolition Hammer",
         country: "The Bronx, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2353,7 +2353,7 @@ var albumsArray = [
     },
     {
         album: "The Law",
-        imagePath: "img/1992TheLaw.jpg",
+        imagePath: "img1991Plus/1992TheLaw.jpg",
         artist: "Exhorder",
         country: "New Orleans, LA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2361,7 +2361,7 @@ var albumsArray = [
     },
     {
         album: "Labyrinth Of Problems",
-        imagePath: "img/1992LabyrinthOfProblems.jpg",
+        imagePath: "img1991Plus/1992LabyrinthOfProblems.jpg",
         artist: "Legion",
         country: "Barcelona, Spain",
         countryPath: "img/FlagSpain.png",
@@ -2369,7 +2369,7 @@ var albumsArray = [
     },
     {
         album: "Act",
-        imagePath: "img/1992Actjpg",
+        imagePath: "img1991Plus/1992Actjpg",
         artist: "Jester's March",
         country: "Dortmund, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2377,7 +2377,7 @@ var albumsArray = [
     },
     {
         album: "Life Beyond",
-        imagePath: "img/1992LifeBeyond.jpg",
+        imagePath: "img1991Plus/1992LifeBeyond.jpg",
         artist: "Deathrow",
         country: "Düsseldorf, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2385,7 +2385,7 @@ var albumsArray = [
     },
     {
         album: "The Truth",
-        imagePath: "img/1992TheTruth.jpg",
+        imagePath: "img1991Plus/1992TheTruth.jpg",
         artist: "Antidote",
         country: "Helsinki (Finland)",
         countryPath: "img/FlagFinland.png",
@@ -2393,7 +2393,7 @@ var albumsArray = [
     },
     {
         album: "The Plot Sickens",
-        imagePath: "img/1992ThePlotSickens.jpg",
+        imagePath: "img1991Plus/1992ThePlotSickens.jpg",
         artist: "Mystik",
         country: "Cleveland, OH (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2401,7 +2401,7 @@ var albumsArray = [
     },
     {
         album: "Thorns",
-        imagePath: "img/1992Thorns.jpg",
+        imagePath: "img1991Plus/1992Thorns.jpg",
         artist: "Pyracanda",
         country: "Koblenz, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2409,7 +2409,7 @@ var albumsArray = [
     },
     {
         album: "Brainless World",
-        imagePath: "img/1992BrainlessWorld.jpg",
+        imagePath: "img1991Plus/1992BrainlessWorld.jpg",
         artist: "Brainless",
         country: "Sennfeld, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2417,7 +2417,7 @@ var albumsArray = [
     },
     {
         album: "One Way",
-        imagePath: "img/1992OneWay.jpg",
+        imagePath: "img1991Plus/1992OneWay.jpg",
         artist: "Turbo",
         country: "Poznań, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -2425,7 +2425,7 @@ var albumsArray = [
     },
     {
         album: "Force Of Habit",
-        imagePath: "img/1992ForceOfHabit.jpg",
+        imagePath: "img1991Plus/1992ForceOfHabit.jpg",
         artist: "Exodus",
         country: "Richmond, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2433,7 +2433,7 @@ var albumsArray = [
     },
     {
         album: "Easier To Lie",
-        imagePath: "img/1992EasierToLie.jpg",
+        imagePath: "img1991Plus/1992EasierToLie.jpg",
         artist: "Vulture",
         country: "Rotterdam (Netherlands)",
         countryPath: "img/FlagNetherlands.png",
@@ -2441,7 +2441,7 @@ var albumsArray = [
     },
     {
         album: "The Ritual",
-        imagePath: "img/1992TheRitual.jpg",
+        imagePath: "img1991Plus/1992TheRitual.jpg",
         artist: "Testament",
         country: "Berkeley, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2449,7 +2449,7 @@ var albumsArray = [
     },
     {
         album: "The Reborn",
-        imagePath: "img/1992TheReborn.jpg",
+        imagePath: "img1991Plus/1992TheReborn.jpg",
         artist: "Risk",
         country: "Witten, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2457,7 +2457,7 @@ var albumsArray = [
     },
     {
         album: "Beyond Recognition",
-        imagePath: "img/1992BeyondRecognition.jpg",
+        imagePath: "img1991Plus/1992BeyondRecognition.jpg",
         artist: "Defiance",
         country: "Oakland, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2465,7 +2465,7 @@ var albumsArray = [
     },
     {
         album: "Where Evil Dwells",
-        imagePath: "img/1992WhereEvilDwells.jpg",
+        imagePath: "img1991Plus/1992WhereEvilDwells.jpg",
         artist: "Darklin Reach",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2473,7 +2473,7 @@ var albumsArray = [
     },
     {
         album: "Between Good And Evil",
-        imagePath: "img/1992BetweenGoodAndEvil.jpg",
+        imagePath: "img1991Plus/1992BetweenGoodAndEvil.jpg",
         artist: "Toxic Shock",
         country: "Eislingen, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2481,7 +2481,7 @@ var albumsArray = [
     },
     {
         album: "Stone Cold Sober",
-        imagePath: "img/1992StoneColdSober.jpg",
+        imagePath: "img1991Plus/1992StoneColdSober.jpg",
         artist: "Tankard",
         country: "Frankfurt, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2489,7 +2489,7 @@ var albumsArray = [
     },
     {
         album: "Chaos A.D.",
-        imagePath: "img/1993ChaosAD.jpg",
+        imagePath: "img1991Plus/1993ChaosAD.jpg",
         artist: "Sepultura",
         country: "Belo Horizonte, Brazil",
         countryPath: "img/FlagBrazil.jpg",
@@ -2497,7 +2497,7 @@ var albumsArray = [
     },
     {
         album: "Darkened Reality",
-        imagePath: "img/1993DarkenedReality.jpg",
+        imagePath: "img1991Plus/1993DarkenedReality.jpg",
         artist: "Arbitrater",
         country: "Warwick (England)",
         countryPath: "img/FlagEngland.png",
@@ -2505,7 +2505,7 @@ var albumsArray = [
     },
     {
         album: "Кровоизлияние (Extravasation)",
-        imagePath: "img/1993Extravasation.png",
+        imagePath: "img1991Plus/1993Extravasation.png",
         artist: "Аспид (Aspid)",
         country: "Volgodonsk, Russia",
         countryPath: "img/FlagRussia.jpg",
@@ -2513,7 +2513,7 @@ var albumsArray = [
     },
     {
         album: "Nothing To Gain",
-        imagePath: "img/1993NothingToGain.jpg",
+        imagePath: "img1991Plus/1993NothingToGain.jpg",
         artist: "Vio-lence",
         country: "San Francisco, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2521,7 +2521,7 @@ var albumsArray = [
     },
     {
         album: "Onward Thru The Fog",
-        imagePath: "img/1993OnwardThruTheFog.jpg",
+        imagePath: "img1991Plus/1993OnwardThruTheFog.jpg",
         artist: "Leviathen",
         country: "Bath, PA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2529,7 +2529,7 @@ var albumsArray = [
     },
     {
         album: "Rules Of Peace",
-        imagePath: "img/1993RulesOfPeace.jpg",
+        imagePath: "img1991Plus/1993RulesOfPeace.jpg",
         artist: "Contradiction",
         country: "Wuppertal, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2537,7 +2537,7 @@ var albumsArray = [
     },
     {
         album: "Different",
-        imagePath: "img/1993Different.jpg",
+        imagePath: "img1991Plus/1993Different.jpg",
         artist: "Crionic",
         country: "Přelouč, Czech Republic",
         countryPath: "img/FlagCzech.jpg",
@@ -2545,7 +2545,7 @@ var albumsArray = [
     },
     {
         album: "Apocalypse Inside",
-        imagePath: "img/1993ApocalypseInside.jpg",
+        imagePath: "img1991Plus/1993ApocalypseInside.jpg",
         artist: "Sacrifice",
         country: "Toronto, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -2553,7 +2553,7 @@ var albumsArray = [
     },
     {
         album: "Kick 'Em Hard",
-        imagePath: "img/1993KickEmHard.jpg",
+        imagePath: "img1991Plus/1993KickEmHard.jpg",
         artist: "Addictive",
         country: "Sydney, Australia",
         countryPath: "img/FlagAustralia.jpg",
@@ -2561,7 +2561,7 @@ var albumsArray = [
     },
     {
         album: "Visitör",
-        imagePath: "img/1993Visitor.jpg",
+        imagePath: "img1991Plus/1993Visitor.jpg",
         artist: "Visitör",
         country: "Orange County, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2569,7 +2569,7 @@ var albumsArray = [
     },
     {
         album: "Something Wicked",
-        imagePath: "img/1993SomethingWicked.jpg",
+        imagePath: "img1991Plus/1993SomethingWicked.jpg",
         artist: "Nuclear Assault",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2577,7 +2577,7 @@ var albumsArray = [
     },
     {
         album: "Grin",
-        imagePath: "img/1993Grin.jpg",
+        imagePath: "img1991Plus/1993Grin.jpg",
         artist: "Coroner",
         country: "Zürich, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -2585,7 +2585,7 @@ var albumsArray = [
     },
     {
         album: "Will Work For Food",
-        imagePath: "img/1993WillWorkForFood.jpg",
+        imagePath: "img1991Plus/1993WillWorkForFood.jpg",
         artist: "Unlce Slam",
         country: "Beverly Hills, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2593,7 +2593,7 @@ var albumsArray = [
     },
     {
         album: "Nothing Lasts Forever",
-        imagePath: "img/1993NothingLastsForever.jpg",
+        imagePath: "img1991Plus/1993NothingLastsForever.jpg",
         artist: "Poltergeist",
         country: "Liestal, Switzerland",
         countryPath: "img/FlagSwitzerland.png",
@@ -2601,7 +2601,7 @@ var albumsArray = [
     },
     {
         album: "My Friend Lonely",
-        imagePath: "img/1994MyFriendLonely.jpg",
+        imagePath: "img1991Plus/1994MyFriendLonely.jpg",
         artist: "Cyclone Temple",
         country: "Chicago, IL (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2609,7 +2609,7 @@ var albumsArray = [
     },
     {
         album: "King Of The Kill",
-        imagePath: "img/1994KingOfTheKill.jpg",
+        imagePath: "img1991Plus/1994KingOfTheKill.jpg",
         artist: "Annihilator",
         country: "Ottawa, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
@@ -2617,7 +2617,7 @@ var albumsArray = [
     },
     {
         album: "Total",
-        imagePath: "img/1994Total.jpg",
+        imagePath: "img1991Plus/1994Total.jpg",
         artist: "Antidote",
         country: "Helsinki (Finland)",
         countryPath: "img/FlagFinland.png",
@@ -2625,7 +2625,7 @@ var albumsArray = [
     },
     {
         album: "Escape From Mind",
-        imagePath: "img/1994EscapeFromMind.jpg",
+        imagePath: "img1991Plus/1994EscapeFromMind.jpg",
         artist: "Shah",
         country: "Moscow, Russia",
         countryPath: "img/FlagRussia.png",
@@ -2633,7 +2633,7 @@ var albumsArray = [
     },
     {
         album: "P.S.I.H.O.",
-        imagePath: "img/1994PSIHO.jpg",
+        imagePath: "img1991Plus/1994PSIHO.jpg",
         artist: "Shah",
         country: "Moscow, Russia",
         countryPath: "img/FlagRussia.png",
@@ -2641,7 +2641,7 @@ var albumsArray = [
     },
     {
         album: "Iceland",
-        imagePath: "img/1994Iceland.jpg",
+        imagePath: "img1991Plus/1994Iceland.jpg",
         artist: "Iceland",
         country: "Plaisir, France",
         countryPath: "img/FlagFrance.png",
@@ -2649,7 +2649,7 @@ var albumsArray = [
     },
     {
         album: "When God Dies",
-        imagePath: "img/1995WhenGodDies.jpg",
+        imagePath: "img1991Plus/1995WhenGodDies.jpg",
         artist: "Unlce Slam",
         country: "Beverly Hills, CA (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2657,7 +2657,7 @@ var albumsArray = [
     },
     {
         album: "Millennium",
-        imagePath: "img/1996Millennium.jpg",
+        imagePath: "img1991Plus/1996Millennium.jpg",
         artist: "Agony",
         country: "Bogota (Colombia)",
         countryPath: "img/FlagColombia.png",
@@ -2665,7 +2665,7 @@ var albumsArray = [
     },
     {
         album: "Unity",
-        imagePath: "img/1997Unity.jpg",
+        imagePath: "img1991Plus/1997Unity.jpg",
         artist: "Pariah",
         country: "Newcastle (England)",
         countryPath: "img/FlagEngland.png",
@@ -2673,7 +2673,7 @@ var albumsArray = [
     },
     {
         album: "Thrashback",
-        imagePath: "img/1998Thrashback.jpg",
+        imagePath: "img1991Plus/1998Thrashback.jpg",
         artist: "Whiplash",
         country: "Passaic, NJ (USA)",
         countryPath: "img/FlagUSA.png",
@@ -2681,7 +2681,7 @@ var albumsArray = [
     },
     {
         album: "Bigger Than The Devil",
-        imagePath: "img/1999BiggerThanTheDevil.jpg",
+        imagePath: "img1991Plus/1999BiggerThanTheDevil.jpg",
         artist: "S.O.D.",
         country: "New York City, NY (USA)",
         countryPath: "img/FlagUSA.png",
