@@ -2049,7 +2049,7 @@ var albumsArray = [
     },
     {
         album: "God's Gift",
-        imagePath: "img/1990GodsGift.png",
+        imagePath: "img/1990GodsGift.jpg",
         artist: "Toranaga",
         country: "Bradford (England)",
         countryPath: "img/FlagEngland.png",
