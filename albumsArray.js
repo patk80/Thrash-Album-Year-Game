@@ -2209,7 +2209,7 @@ var albumsArray = [
     },
     {
         album: "Immortal Entity",
-        imagePath: "img1991Plus/1989ImmortalEntity.jpg",
+        imagePath: "img1991Plus/1991ImmortalEntity.jpg",
         artist: "Alligator",
         country: "Vigevano, Italy",
         countryPath: "img/FlagItaly.png",
@@ -2508,7 +2508,7 @@ var albumsArray = [
         imagePath: "img1991Plus/1993Extravasation.png",
         artist: "Аспид (Aspid)",
         country: "Volgodonsk, Russia",
-        countryPath: "img/FlagRussia.jpg",
+        countryPath: "img/FlagRussia.png",
         year: 1993,
     },
     {
