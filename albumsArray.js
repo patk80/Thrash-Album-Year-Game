@@ -2368,8 +2368,8 @@ var albumsArray = [
         year: 1992,
     },
     {
-        album: "Act",
-        imagePath: "img1991Plus/1992Actjpg",
+        album: "Acts",
+        imagePath: "img1991Plus/1992Acts.jpg",
         artist: "Jester's March",
         country: "Dortmund, West Germany",
         countryPath: "img/FlagGermany.png",
@@ -2545,7 +2545,7 @@ var albumsArray = [
     },
     {
         album: "Apocalypse Inside",
-        imagePath: "img1991Plus/1993ApocalypseInside.jpg",
+        imagePath: "img1991Plus/1993ApocalypseInside.png",
         artist: "Sacrifice",
         country: "Toronto, Ontario (CAN)",
         countryPath: "img/FlagCanada.jpg",
