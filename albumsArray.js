@@ -2473,7 +2473,7 @@ var albumsArray = [
     },
     {
         album: "Between Good And Evil",
-        imagePath: "img1991Plus/1992BetweenGoodAndEvil.jpg",
+        imagePath: "img1991Plus/1992BetweenGoodAndEvil.png",
         artist: "Toxic Shock",
         country: "Eislingen, West Germany",
         countryPath: "img/FlagGermany.png",
