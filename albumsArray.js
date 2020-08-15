@@ -361,7 +361,7 @@ var albumsArray = [
     },
     {
         album: "666",
-        imagePath: "img1983to1986/1986666.png",
+        imagePath: "img1991Plus/1986666.png",
         artist: "Kat",
         country: "Katowice, Poland",
         countryPath: "img/FlagPoland.jpg",
@@ -1201,7 +1201,7 @@ var albumsArray = [
     },
     {
         album: "4 Of A Kind",
-        imagePath: "img1988/19884OfAKind.jpg",
+        imagePath: "img1991Plus/19884OfAKind.jpg",
         artist: "D.R.I.",
         country: "Houston, TX (USA)",
         countryPath: "img/FlagUSA.png",
