@@ -5,6 +5,7 @@ let background     = document.querySelector(".main-container");
 let currentScore   = 0;
 let currentTurn    = 0;
 
+// Function to get select a random album from the Array and display it on the screen //
 function randomAlbum() {
     let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
     albumYear                     = albumsArray[randomIndex].year;
@@ -17,6 +18,43 @@ function randomAlbum() {
     document.querySelector("#flagArtwork").src                = albumsArray[randomIndex].countryPath;
 };
 
+//Function to check if the user's input/answer matches the selected album's data //
+function checkAnswer() {
+    let inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
+    
+    if(inputValue === 0){
+        alert("Please enter a year");
+    } 
+    else if(inputValue === albumYear){
+        correctAnswer();
+        randomAlbum();
+    } 
+    else {
+        wrongAnswer();
+        randomAlbum();
+    }
+}
+
+// Function to alter the screen's look and score if the user gets the answer right //
+function correctAnswer() {
+    background.classList.add("correct-answer");
+    background.classList.remove("wrong-answer");
+    currentScore++;
+    currentTurn++;
+    document.querySelector("#currentScoreDisplay").textContent = currentScore;
+    document.querySelector("#currentTurnDisplay").textContent = currentTurn;
+}
+
+// Function to alter the screen's look and score if the user gets the answer wrong //
+function wrongAnswer() {
+    currentTurn++;
+    document.querySelector("#currentTurnDisplay").textContent = currentTurn;
+    background.classList.add("wrong-answer");
+    background.classList.remove("correct-answer");
+    alert(albumYear + " was the correct answer");
+}
+
+// Event listeners for the "Submit Guess" button and the enter key //
 submitButton.addEventListener("click", function() {
     checkAnswer();
 });
@@ -26,26 +64,3 @@ input.addEventListener("keypress", function (e) {
         checkAnswer();
     }
 });
-
-function checkAnswer() {
-    let inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
-    
-    if(inputValue === 0){
-        alert("Please enter a year");
-    } else if(inputValue === albumYear){
-        background.classList.add("correct-answer");
-        background.classList.remove("wrong-answer");
-        currentScore++;
-        currentTurn++;
-        document.querySelector("#currentScoreDisplay").textContent = currentScore;
-        document.querySelector("#currentTurnDisplay").textContent = currentTurn;
-        randomAlbum();
-    } else {
-        currentTurn++;
-        document.querySelector("#currentTurnDisplay").textContent = currentTurn;
-        background.classList.add("wrong-answer");
-        background.classList.remove("correct-answer");
-        alert(albumYear + " was the correct answer");
-        randomAlbum();
-    }
-}
