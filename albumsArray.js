@@ -1,4 +1,4 @@
-var albumsArray = [
+const albumsArray = [
     {
         album: "Show No Mercy",
         imagePath: "img1983to1986/1983ShowNoMercy.jpg",
