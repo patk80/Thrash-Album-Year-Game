@@ -30,7 +30,7 @@ body {
 }
 
 #score {
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 0.0625rem;
     align-self: flex-start;
     margin: 10px 0 0 10px;
@@ -39,6 +39,7 @@ body {
 h1 { 
     font-size: 3rem;
     font-weight: 900;
+    margin-bottom: 10px;
 }
  
 #flagArtwork {
@@ -105,11 +106,11 @@ input {
 }
 
 /* @keyframes correctAnimation {
-    0%   {background-color: rgb(202, 202, 202); border-top: 5px solid cyan;}
-    25%   {background-color: rgb(0, 139, 0); border-right: 5px solid cyan;}
-    50%  {background-color: rgb(8, 97, 0); border-bottom: 5px solid cyan;}
-    75% {background-color: rgb(0, 139, 0); border-left: 5px solid cyan;}
-    100%   {background-color: rgb(202, 202, 202); border: none;}
+    0%   {background-color: rgb(202, 202, 202);}
+    25%   {background-color: rgb(0, 139, 0);}
+    50%  {background-color: rgb(8, 97, 0);}
+    75% {background-color: rgb(0, 139, 0);}
+    100%   {background-color: rgb(202, 202, 202);}
 } 
 
 @keyframes wrongAnimation {
@@ -122,17 +123,18 @@ input {
 
 .correct-answer {
     background-color: rgb(0, 139, 0);
-    /* animation: correctAnimation 1s; */
+    /* animation: correctAnimation 2s; */
 }
 
 .wrong-answer {
     background-color: rgb(235, 0, 0);
-    /* animation: wrongAnimation 1s; */
+    /* animation: wrongAnimation 2s; */
 }
 
+/*************************************************************************************************************************/
 /* MEDIA QUERIES */
-
-@media only screen and (max-width: 465px) {
+/*************************************************************************************************************************/
+@media only screen and (max-width: 524px) {
 
     .main-container {
         width: 90vw;
@@ -151,6 +153,10 @@ input {
         font-size: 2rem;
     }
 
+    #countryTextContent { 
+        font-size: 0.75rem;
+    }
+
     #albumTextContent {
         margin: 0.5rem 0 0 0;
     }
@@ -163,6 +169,22 @@ input {
     input {
         font-size: 1.5rem;
         width: 70%;
+        height: 8%;
+        margin: 30px 0 20px 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 369px) {
+
+    h1 { 
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-size: 1rem;
+        width: 80%;
         height: 8%;
         margin: 30px 0 20px 0;
     }
