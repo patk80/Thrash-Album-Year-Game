@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(202, 202, 202);
     font-family: "Metal Mania", serif;
     border-radius: 0.3125rem;
     width: 90vw;
@@ -23,8 +23,8 @@ body {
   
 .game {
     background-color: rgb(202, 202, 202);
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +33,7 @@ body {
 #score {
     font-size: 1.2rem;
     letter-spacing: 0.0625rem;
+    align-self: flex-start;
 }
 
 h1 { 
@@ -40,7 +41,8 @@ h1 {
 }
  
 #flagArtwork {
-    height: 5%;
+    width: 4%;
+    height: auto;
 }
 
 #countryTextContent { 
@@ -98,12 +100,30 @@ input {
     visibility: hidden;
 }
 
+/* @keyframes correctAnimation {
+    0%   {background-color: rgb(202, 202, 202);}
+    25%   {background-color: rgb(0, 139, 0);}
+    50%  {background-color: rgb(8, 97, 0);}
+    75% {background-color: rgb(0, 139, 0);}
+    100%   {background-color: rgb(202, 202, 202);}
+}
+
+@keyframes wrongAnimation {
+    0%   {background-color: rgb(202, 202, 202);}
+    25%   {background-color: rgb(235, 0, 0);}
+    50%  {background-color: rgb(160, 0, 0);}
+    75% {background-color: rgb(235, 0, 0);}
+    100%   {background-color: rgb(202, 202, 202);}
+} */
+
 .correct-answer {
     background-color: rgb(0, 139, 0);
+    /* animation: correctAnimation 1s; */
 }
 
 .wrong-answer {
     background-color: rgb(235, 0, 0);
+    /* animation: wrongAnimation 1s; */
 }
 
 /* MEDIA QUERIES */
