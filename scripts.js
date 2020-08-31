@@ -1,12 +1,12 @@
-var submitButton = document.querySelector("#submitButton");
-var input        = document.querySelector("input");
-var background   = document.querySelector(".main-container");
-var currentScore = 0;
-var currentTurn  = 0;
+const submitButton = document.querySelector("#submitButton");
+const randomButton = document.querySelector("#randomButton");
+const input        = document.querySelector("input");
+let background     = document.querySelector(".main-container");
+let currentScore   = 0;
+let currentTurn    = 0;
 
 function randomAlbum() {
-    var randomIndex  = Math.floor( Math.random() * (albumsArray.length) );
-    var randomButton = document.querySelector("#randomButton")
+    let randomIndex  = Math.floor( Math.random() * (albumsArray.length) );
     albumYear        = albumsArray[randomIndex].year;
     randomButton.style.display = "none";
     submitButton.style.visibility = "visible";
