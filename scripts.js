@@ -20,8 +20,8 @@ function randomAlbum() {
 
 //Function to check if the user's input/answer matches the selected album's data //
 function checkAnswer() {
-    let inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
-    
+    // variable that converts to a number since by default input makes it a string //
+    let inputValue = Number(document.querySelector("input").value);
     if(inputValue === 0){
         alert("Please enter a year");
     } 
@@ -44,7 +44,6 @@ function correctAnswer() {
     document.querySelector("#currentScoreDisplay").textContent = currentScore;
     document.querySelector("#currentTurnDisplay").textContent = currentTurn;
 }
-
 // Function to alter the screen's look and score if the user gets the answer wrong //
 function wrongAnswer() {
     currentTurn++;
@@ -54,11 +53,11 @@ function wrongAnswer() {
     alert(albumYear + " was the correct answer");
 }
 
-// Event listeners for the "Submit Guess" button and the enter key //
+// Event listener for the "Submit Guess" button //
 submitButton.addEventListener("click", function() {
     checkAnswer();
 });
-
+// Event listener for the enter key //
 input.addEventListener("keypress", function (e) {
     if (e.keyCode === 13) {
         checkAnswer();
