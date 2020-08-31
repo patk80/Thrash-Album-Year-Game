@@ -21,7 +21,7 @@ submitButton.addEventListener("click", function() {
     checkAnswer();
 });
 
-input.addEventListener('keypress', function (e) {
+input.addEventListener("keypress", function (e) {
     if (e.keyCode === 13) {
         checkAnswer();
     }
