@@ -6,9 +6,9 @@ let currentScore   = 0;
 let currentTurn    = 0;
 
 function randomAlbum() {
-    let randomIndex  = Math.floor( Math.random() * (albumsArray.length) );
-    albumYear        = albumsArray[randomIndex].year;
-    randomButton.style.display = "none";
+    let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
+    albumYear                     = albumsArray[randomIndex].year;
+    randomButton.style.display    = "none";
     submitButton.style.visibility = "visible";
     input.style.visibility        = "visible";
     document.querySelector("#countryTextContent").textContent = albumsArray[randomIndex].country;
@@ -28,7 +28,7 @@ input.addEventListener('keypress', function (e) {
 });
 
 function checkAnswer() {
-    var inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
+    let inputValue = Number(document.querySelector("input").value); // variable that converts to a number since by default input makes it a string
     
     if(inputValue === 0){
         alert("Please enter a year");
