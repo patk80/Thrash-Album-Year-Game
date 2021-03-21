@@ -16,6 +16,8 @@ function randomAlbum() {
     document.querySelector("#albumTextContent").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
     document.querySelector("#albumArtwork").src               = albumsArray[randomIndex].imagePath;
     document.querySelector("#flagArtwork").src                = albumsArray[randomIndex].countryPath;
+    // remove - with splice
+
 };
 
 //Function to check if the user's input/answer matches the selected album's data //
