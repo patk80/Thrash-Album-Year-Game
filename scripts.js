@@ -9,13 +9,18 @@ let currentTurn    = 0;
 function randomAlbum() {
 
     // Check if it is the last album in array //
-    if(albumsArray.length == 0) {
+    if(albumsArray.length === 0) {
         input.style.display           = "none";
         submitButton.style.display    = "none";
-        document.querySelector("#countryTextContent").style.visibility = "hidden";
-        document.querySelector("#albumTextContent").style.visibility = "hidden";
-        document.querySelector("#albumArtwork").style.visibility = "hidden"; 
-        document.querySelector("#flagArtwork").style.visibility = "hidden";
+        document.querySelector("#headerText").textContent                 = "Your Score Was:";
+        // document.querySelector("#countryTextContent").style.visibility    = "hidden";
+        document.querySelector("#countryTextContent").textContent = ( (currentScore / currentTurn) * 100 ) + "%";
+        document.querySelector("#albumTextContent").style.visibility      = "hidden";
+        document.querySelector("#albumArtwork").style.visibility          = "hidden"; 
+        document.querySelector("#flagArtwork").style.visibility           = "hidden";
+        document.querySelector("#score").style.visibility                 = "hidden";
+        document.querySelector("#currentScoreDisplay").style.visibility   = "hidden";
+        document.querySelector("#currentTurnDisplay").style.visibility    = "hidden";
     }
 
     // If it isn't the last album in the array, display a random album //
