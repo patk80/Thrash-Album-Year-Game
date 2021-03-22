@@ -10,8 +10,12 @@ function randomAlbum() {
 
     // Check if it is the last album in array //
     if(albumsArray.length == 0) {
-        input.style.display    = "none";
+        input.style.display           = "none";
         submitButton.style.display    = "none";
+        document.querySelector("#countryTextContent").style.visibility = "hidden";
+        document.querySelector("#albumTextContent").style.visibility = "hidden";
+        document.querySelector("#albumArtwork").style.visibility = "hidden"; 
+        document.querySelector("#flagArtwork").style.visibility = "hidden";
     }
 
     // If it isn't the last album in the array, display a random album //
