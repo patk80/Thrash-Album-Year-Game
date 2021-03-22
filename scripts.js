@@ -74,7 +74,7 @@ function wrongAnswer() {
     document.querySelector("#currentTurnDisplay").textContent = currentTurn;
     background.classList.add("wrong-answer");
     background.classList.remove("correct-answer");
-    alert(albumYear + " was the correct answer");
+    // alert(albumYear + " was the correct answer");
 }
 
 // Event listener for the "Submit Guess" button //
