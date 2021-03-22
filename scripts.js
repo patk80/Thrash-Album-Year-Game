@@ -10,17 +10,17 @@ function randomAlbum() {
 
     // Check if it is the last album in array //
     if(albumsArray.length === 0) {
-        input.style.display           = "none";
-        submitButton.style.display    = "none";
+        input.style.display                                               = "none";
+        submitButton.style.display                                        = "none";
         document.querySelector("#headerText").textContent                 = "Your Score Was:";
-        // document.querySelector("#countryTextContent").style.visibility    = "hidden";
-        document.querySelector("#countryTextContent").textContent = ( (currentScore / currentTurn) * 100 ) + "%";
-        document.querySelector("#albumTextContent").style.visibility      = "hidden";
-        document.querySelector("#albumArtwork").style.visibility          = "hidden"; 
-        document.querySelector("#flagArtwork").style.visibility           = "hidden";
-        document.querySelector("#score").style.visibility                 = "hidden";
-        document.querySelector("#currentScoreDisplay").style.visibility   = "hidden";
-        document.querySelector("#currentTurnDisplay").style.visibility    = "hidden";
+        document.querySelector("#countryTextContent").style.display       = "none";
+        document.querySelector("#finalPercentage").textContent = ( (currentScore / currentTurn) * 100 ) + "%";
+        document.querySelector("#albumTextContent").style.display         = "none";
+        document.querySelector("#albumArtwork").style.display             = "none";
+        document.querySelector("#flagArtwork").style.display              = "none";
+        document.querySelector("#score").style.display                    = "none";
+        document.querySelector("#currentScoreDisplay").style.display      = "none";
+        document.querySelector("#currentTurnDisplay").style.display       = "none";
     }
 
     // If it isn't the last album in the array, display a random album //
