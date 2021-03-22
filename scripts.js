@@ -36,7 +36,6 @@ function randomAlbum() {
         document.querySelector("#flagArtwork").src                = albumsArray[randomIndex].countryPath;
         // remove current album from albumsArry with splice //
         albumsArray.splice([randomIndex], 1);
-        console.log(albumsArray.length);
     }
 
 
