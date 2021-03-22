@@ -7,17 +7,30 @@ let currentTurn    = 0;
 
 // Function to get select a random album from the Array and display it on the screen //
 function randomAlbum() {
-    let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
-    albumYear                     = albumsArray[randomIndex].year;
-    randomButton.style.display    = "none";
-    submitButton.style.visibility = "visible";
-    input.style.visibility        = "visible";
-    document.querySelector("#countryTextContent").textContent = albumsArray[randomIndex].country;
-    document.querySelector("#albumTextContent").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
-    document.querySelector("#albumArtwork").src               = albumsArray[randomIndex].imagePath;
-    document.querySelector("#flagArtwork").src                = albumsArray[randomIndex].countryPath;
-    // remove current album from albumsArry with splice //
-    albumsArray.splice([randomIndex], 1);
+
+    // Check if it is the last album in array //
+    if(albumsArray.length == 0) {
+        input.style.display    = "none";
+        submitButton.style.display    = "none";
+    }
+
+    // If it isn't the last album in the array, display a random album //
+    else{
+        let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
+        albumYear                     = albumsArray[randomIndex].year;
+        randomButton.style.display    = "none";
+        submitButton.style.visibility = "visible";
+        input.style.visibility        = "visible";
+        document.querySelector("#countryTextContent").textContent = albumsArray[randomIndex].country;
+        document.querySelector("#albumTextContent").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
+        document.querySelector("#albumArtwork").src               = albumsArray[randomIndex].imagePath;
+        document.querySelector("#flagArtwork").src                = albumsArray[randomIndex].countryPath;
+        // remove current album from albumsArry with splice //
+        albumsArray.splice([randomIndex], 1);
+        console.log(albumsArray.length);
+    }
+
+
 };
 
 //Function to check if the user's input/answer matches the selected album's data //
