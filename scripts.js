@@ -5,7 +5,7 @@ let background     = document.querySelector(".main-container");
 let currentScore   = 0;
 let currentTurn    = 0;
 
-// Function to get select a random album from the Array and display it on the screen //
+// Function for game to select a random album from the Array and display it on the screen //
 function randomAlbum() {
 
     // Check if it is the last album in array //
@@ -38,7 +38,6 @@ function randomAlbum() {
         albumsArray.splice([randomIndex], 1);
     }
 
-
 };
 
 //Function to check if the user's input/answer matches the selected album's data //
@@ -56,7 +55,6 @@ function checkAnswer() {
         wrongAnswer();
         randomAlbum();
     }
-
 }
 
 // Function to alter the screen's look and score if the user gets the answer right //
