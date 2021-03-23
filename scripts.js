@@ -14,7 +14,7 @@ function randomAlbum() {
         submitButton.style.display                                        = "none";
         document.querySelector("#headerText").textContent                 = "Your Score Was:";
         document.querySelector("#countryTextContent").style.display       = "none";
-        document.querySelector("#finalPercentage").textContent = ( (currentScore / currentTurn) * 100 ).toFixed(2) + "%";
+        document.querySelector("#finalPercentage").textContent = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
         document.querySelector("#albumTextContent").style.display         = "none";
         document.querySelector("#albumArtwork").style.display             = "none";
         document.querySelector("#flagArtwork").style.display              = "none";
