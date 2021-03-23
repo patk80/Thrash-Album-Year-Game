@@ -1,4 +1,4 @@
-const startButton = document.querySelector("#startButton");
+const startButton  = document.querySelector("#startButton");
 const submitButton = document.querySelector("#submitButton");
 const input        = document.querySelector("input");
 let background     = document.querySelector(".main-container");
@@ -14,7 +14,7 @@ function randomAlbum() {
         submitButton.style.display                                        = "none";
         document.querySelector("#headerText").textContent                 = "Your Score Was:";
         document.querySelector("#countryTextContent").style.display       = "none";
-        document.querySelector("#finalPercentage").textContent = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
+        document.querySelector("#finalPercentage").textContent            = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
         document.querySelector("#albumTextContent").style.display         = "none";
         document.querySelector("#albumArtwork").style.display             = "none";
         document.querySelector("#flagArtwork").style.display              = "none";
@@ -25,11 +25,11 @@ function randomAlbum() {
 
     // If it isn't the last album in the array, display a random album //
     else{
-        let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
-        albumYear                     = albumsArray[randomIndex].year;
-        startButton.style.display    = "none";
-        submitButton.style.visibility = "visible";
-        input.style.visibility        = "visible";
+        let randomIndex                                           = Math.floor( Math.random() * (albumsArray.length) );
+        albumYear                                                 = albumsArray[randomIndex].year;
+        startButton.style.display                                 = "none";
+        submitButton.style.visibility                             = "visible";
+        input.style.visibility                                    = "visible";
         document.querySelector("#countryTextContent").textContent = albumsArray[randomIndex].country;
         document.querySelector("#albumTextContent").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
         document.querySelector("#albumArtwork").src               = albumsArray[randomIndex].imagePath;
