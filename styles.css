@@ -109,30 +109,26 @@ input {
     font-size: 100px;
 }
 
-/* @keyframes correctAnimation {
-    0%   {background-color: rgb(202, 202, 202);}
-    25%   {background-color: rgb(0, 139, 0);}
+@keyframes correctAnimation {
+    25% {background-color: rgb(0, 139, 0);}
     50%  {background-color: rgb(8, 97, 0);}
-    75% {background-color: rgb(0, 139, 0);}
-    100%   {background-color: rgb(202, 202, 202);}
+    100% {background-color: rgb(0, 139, 0);}
 } 
-
-@keyframes wrongAnimation {
-    0%   {background-color: rgb(202, 202, 202);}
-    25%   {background-color: rgb(235, 0, 0);}
-    50%  {background-color: rgb(160, 0, 0);}
-    75% {background-color: rgb(235, 0, 0);}
-    100%   {background-color: rgb(202, 202, 202);}
-} */
 
 .correct-answer {
     background-color: rgb(0, 139, 0);
-    /* animation: correctAnimation 2s; */
+    animation: correctAnimation 1s;
 }
+
+@keyframes wrongAnimation {
+    25% {background-color: rgb(235, 0, 0);}
+    50%  {background-color: rgb(160, 0, 0);}
+    100% {background-color: rgb(235, 0, 0);}
+} 
 
 .wrong-answer {
     background-color: rgb(235, 0, 0);
-    /* animation: wrongAnimation 2s; */
+    animation: wrongAnimation 1s;
 }
 
 /*************************************************************************************************************************/

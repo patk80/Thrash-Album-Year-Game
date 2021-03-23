@@ -56,6 +56,7 @@ function checkAnswer() {
         wrongAnswer();
         randomAlbum();
     }
+
 }
 
 // Function to alter the screen's look and score if the user gets the answer right //
