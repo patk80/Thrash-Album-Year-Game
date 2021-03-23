@@ -2504,9 +2504,9 @@ const albumsArray = [
         year: 1993,
     },
     {
-        album: "Кровоизлияние (Extravasation)",
+        album: "Кровоизлияние",
         imagePath: "img1991Plus/1993Extravasation.png",
-        artist: "Аспид (Aspid)",
+        artist: "Аспид",
         country: "Volgodonsk, Russia",
         countryPath: "img/FlagRussia.png",
         year: 1993,
