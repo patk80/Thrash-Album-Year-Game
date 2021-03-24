@@ -59,11 +59,11 @@ h1 {
     height: 50%;
 }
 
-#startButton {
+#start-button {
     margin: 1% 0;
 } 
 
-#submitButton {
+#submit-button {
     visibility: hidden;
 }
 

@@ -1,5 +1,5 @@
-const startButton  = document.querySelector("#startButton");
-const submitButton = document.querySelector("#submitButton");
+const startButton  = document.querySelector("#start-button");
+const submitButton = document.querySelector("#submit-button");
 const input        = document.querySelector("input");
 let background     = document.querySelector(".main-container");
 let currentScore   = 0;
