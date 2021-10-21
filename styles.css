@@ -161,8 +161,8 @@ input {
     }
 
     #albumArtwork {
-        height: 40%
-
+        height: auto;
+        width: 60%;
     }
 
     input {
