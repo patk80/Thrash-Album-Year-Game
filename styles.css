@@ -49,10 +49,9 @@ button:active {
 .main-container {
     background-color: #cacaca;
     font-family: "Montserrat", sans-serif;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    margin: 2vh auto;
     justify-content: center;
     align-items: center;
 }
@@ -74,7 +73,7 @@ button:active {
     margin: 10px 0 0 10px;
 }
 
-h1 { 
+#header-text { 
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 10px;
@@ -160,20 +159,13 @@ input {
 /* MEDIA QUERIES START */
 /*************************************************************************************************************************/
 @media only screen and (max-width: 524px) {
-
-    .main-container {
-        width: 90vw;
-        height: 85vh;
-        display: flex;
-        margin: 1vh auto;
-      }
-      
+     
     .game {
         width: 90%;
         height: 90%;
     }
 
-    h1 { 
+    #header-text { 
         font-size: 2rem;
     }
 
@@ -202,7 +194,7 @@ input {
 
 @media only screen and (max-width: 369px) {
 
-    h1 { 
+    #header-text { 
         font-size: 1.5rem;
     }
 
