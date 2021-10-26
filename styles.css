@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     height: 100%;
 }
 
 .main-container {
-    background-color: rgb(202, 202, 202);
+    background-color: #cacaca;
     font-family: "Montserrat", sans-serif;
     width: 90vw;
     height: 90vh;
@@ -21,7 +21,7 @@ body {
 }
   
 .game {
-    background-color: rgb(202, 202, 202);
+    background-color: #cacaca;
     width: 95%;
     height: 95%;
     display: flex;
@@ -69,10 +69,10 @@ h1 {
 }
 
 button {
-    background-color: #000;
+    background-color: #000000;
     border-radius: 10rem;
     border: none;
-    color: #fff;
+    color: #ffffff;
     display: inline-block;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
@@ -111,24 +111,24 @@ input {
 }
 
 @keyframes correctAnimation {
-    25% {background-color: rgb(0, 139, 0);}
-    50%  {background-color: rgb(8, 97, 0);}
-    100% {background-color: rgb(0, 139, 0);}
+     25% {background-color: #008b00;}
+     50%  {background-color: #086100;}
+     100%  {background-color: #008b00;}
 } 
 
 .correct-answer {
-    background-color: rgb(0, 139, 0);
+    background-color: #008b00;
     animation: correctAnimation 1s;
 }
 
 @keyframes wrongAnimation {
-    25% {background-color: rgb(235, 0, 0);}
-    50%  {background-color: rgb(160, 0, 0);}
-    100% {background-color: rgb(235, 0, 0);}
+     25% {background-color: #eb0000;}
+     50% {background-color: #a00000;}
+     100% {background-color: #eb0000;}
 } 
 
 .wrong-answer {
-    background-color: rgb(235, 0, 0);
+    background-color: #eb0000;
     animation: wrongAnimation 1s;
 }
 
