@@ -10,30 +10,30 @@ function randomAlbum() {
 
     // Check if it is the last album in array //
     if(albumsArray.length === 0) {
-        input.style.display                                               = "none";
-        submitButton.style.display                                        = "none";
-        document.querySelector("#header-text").textContent                 = "Your Score Was:";
+        input.style.display                                                 = "none";
+        submitButton.style.display                                          = "none";
+        document.querySelector("#header-text").textContent                  = "Your Score Was:";
         document.querySelector("#country-text-content").style.display       = "none";
-        document.querySelector("#final-percentage").textContent            = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
+        document.querySelector("#final-percentage").textContent             = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
         document.querySelector("#album-text-content").style.display         = "none";
-        document.querySelector("#album-artwork").style.display             = "none";
-        document.querySelector("#flag-artwork").style.display              = "none";
-        document.querySelector("#score").style.display                    = "none";
+        document.querySelector("#album-artwork").style.display              = "none";
+        document.querySelector("#flag-artwork").style.display               = "none";
+        document.querySelector("#score").style.display                      = "none";
         document.querySelector("#current-score-display").style.display      = "none";
         document.querySelector("#current-turn-display").style.display       = "none";
     }
 
     // If it isn't the last album in the array, display a random album //
     else{
-        let randomIndex                                           = Math.floor( Math.random() * (albumsArray.length) );
-        albumYear                                                 = albumsArray[randomIndex].year;
-        startButton.style.display                                 = "none";
-        submitButton.style.visibility                             = "visible";
-        input.style.visibility                                    = "visible";
+        let randomIndex                                             = Math.floor( Math.random() * (albumsArray.length) );
+        albumYear                                                   = albumsArray[randomIndex].year;
+        startButton.style.display                                   = "none";
+        submitButton.style.visibility                               = "visible";
+        input.style.visibility                                      = "visible";
         document.querySelector("#country-text-content").textContent = albumsArray[randomIndex].country;
         document.querySelector("#album-text-content").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
-        document.querySelector("#album-artwork").src               = albumsArray[randomIndex].imagePath;
-        document.querySelector("#flag-artwork").src                = albumsArray[randomIndex].countryPath;
+        document.querySelector("#album-artwork").src                = albumsArray[randomIndex].imagePath;
+        document.querySelector("#flag-artwork").src                 = albumsArray[randomIndex].countryPath;
         // remove current album from albumsArry with splice //
         albumsArray.splice([randomIndex], 1);
     }

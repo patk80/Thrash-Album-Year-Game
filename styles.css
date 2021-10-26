@@ -111,9 +111,9 @@ input {
 }
 
 @keyframes correctAnimation {
-     25% {background-color: #008b00;}
-     50%  {background-color: #086100;}
-     100%  {background-color: #008b00;}
+      25% {background-color: #008b00;}
+      50% {background-color: #086100;}
+     100% {background-color: #008b00;}
 } 
 
 .correct-answer {
@@ -122,8 +122,8 @@ input {
 }
 
 @keyframes wrongAnimation {
-     25% {background-color: #eb0000;}
-     50% {background-color: #a00000;}
+      25% {background-color: #eb0000;}
+      50% {background-color: #a00000;}
      100% {background-color: #eb0000;}
 } 
 
