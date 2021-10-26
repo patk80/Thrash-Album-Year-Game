@@ -40,23 +40,6 @@ function randomAlbum() {
 
 };
 
-//Function to check if the user's input/answer matches the selected album's data //
-function checkAnswer() {
-    // variable that converts to a number since by default input makes it a string //
-    let inputValue = Number(document.querySelector("input").value);
-    if(inputValue === 0){
-        alert("Please enter a year");
-    } 
-    else if(inputValue === albumYear){
-        correctAnswer();
-        randomAlbum();
-    } 
-    else {
-        wrongAnswer();
-        randomAlbum();
-    }
-}
-
 // Function to alter the screen's look and score if the user gets the answer right //
 function correctAnswer() {
     background.classList.add("correct-answer");
@@ -85,3 +68,20 @@ input.addEventListener("keypress", function (e) {
         checkAnswer();
     }
 });
+
+//Function to check if the user's input/answer matches the selected album's data //
+function checkAnswer() {
+    // variable that converts to a number since by default input makes it a string //
+    let inputValue = Number(document.querySelector("input").value);
+    if(inputValue === 0){
+        alert("Please enter a year");
+    } 
+    else if(inputValue === albumYear){
+        correctAnswer();
+        randomAlbum();
+    } 
+    else {
+        wrongAnswer();
+        randomAlbum();
+    }
+}
