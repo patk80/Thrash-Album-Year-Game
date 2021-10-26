@@ -12,15 +12,15 @@ function randomAlbum() {
     if(albumsArray.length === 0) {
         input.style.display                                               = "none";
         submitButton.style.display                                        = "none";
-        document.querySelector("#headerText").textContent                 = "Your Score Was:";
-        document.querySelector("#countryTextContent").style.display       = "none";
-        document.querySelector("#finalPercentage").textContent            = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
-        document.querySelector("#albumTextContent").style.display         = "none";
-        document.querySelector("#albumArtwork").style.display             = "none";
-        document.querySelector("#flagArtwork").style.display              = "none";
+        document.querySelector("#header-text").textContent                 = "Your Score Was:";
+        document.querySelector("#country-text-content").style.display       = "none";
+        document.querySelector("#final-percentage").textContent            = ( (currentScore / currentTurn) * 100 ).toFixed(1) + "%";
+        document.querySelector("#album-text-content").style.display         = "none";
+        document.querySelector("#album-artwork").style.display             = "none";
+        document.querySelector("#flag-artwork").style.display              = "none";
         document.querySelector("#score").style.display                    = "none";
-        document.querySelector("#currentScoreDisplay").style.display      = "none";
-        document.querySelector("#currentTurnDisplay").style.display       = "none";
+        document.querySelector("#current-score-display").style.display      = "none";
+        document.querySelector("#current-turn-display").style.display       = "none";
     }
 
     // If it isn't the last album in the array, display a random album //
@@ -30,10 +30,10 @@ function randomAlbum() {
         startButton.style.display                                 = "none";
         submitButton.style.visibility                             = "visible";
         input.style.visibility                                    = "visible";
-        document.querySelector("#countryTextContent").textContent = albumsArray[randomIndex].country;
-        document.querySelector("#albumTextContent").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
-        document.querySelector("#albumArtwork").src               = albumsArray[randomIndex].imagePath;
-        document.querySelector("#flagArtwork").src                = albumsArray[randomIndex].countryPath;
+        document.querySelector("#country-text-content").textContent = albumsArray[randomIndex].country;
+        document.querySelector("#album-text-content").textContent   = albumsArray[randomIndex].artist + " — " + albumsArray[randomIndex].album;
+        document.querySelector("#album-artwork").src               = albumsArray[randomIndex].imagePath;
+        document.querySelector("#flag-artwork").src                = albumsArray[randomIndex].countryPath;
         // remove current album from albumsArry with splice //
         albumsArray.splice([randomIndex], 1);
     }
@@ -63,13 +63,13 @@ function correctAnswer() {
     background.classList.remove("wrong-answer");
     currentScore++;
     currentTurn++;
-    document.querySelector("#currentScoreDisplay").textContent = currentScore;
-    document.querySelector("#currentTurnDisplay").textContent = currentTurn;
+    document.querySelector("#current-score-display").textContent = currentScore;
+    document.querySelector("#current-turn-display").textContent = currentTurn;
 }
 // Function to alter the screen's look and score if the user gets the answer wrong //
 function wrongAnswer() {
     currentTurn++;
-    document.querySelector("#currentTurnDisplay").textContent = currentTurn;
+    document.querySelector("#current-turn-display").textContent = currentTurn;
     background.classList.add("wrong-answer");
     background.classList.remove("correct-answer");
     // alert(albumYear + " was the correct answer");

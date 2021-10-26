@@ -43,20 +43,20 @@ h1 {
     margin-bottom: 10px;
 }
  
-#flagArtwork {
+#flag-artwork {
     height: 4%;
     width: auto;
 }
 
-#countryTextContent { 
+#country-text-content { 
     height: 5%;
 }
 
-#albumTextContent {
+#album-text-content {
     font-weight: 900;
 }
 
-#albumArtwork {
+#album-artwork {
     height: 50%;
 }
 
@@ -106,7 +106,7 @@ input {
     visibility: hidden;
 }
 
-#finalPercentage {
+#final-percentage {
     font-size: 100px;
 }
 
@@ -153,15 +153,15 @@ input {
         font-size: 2rem;
     }
 
-    #countryTextContent { 
+    #country-text-content { 
         font-size: 0.75rem;
     }
 
-    #albumTextContent {
+    #album-text-content {
         margin: 0.5rem 0 0 0;
     }
 
-    #albumArtwork {
+    #album-artwork {
         height: auto;
         width: 60%;
     }
