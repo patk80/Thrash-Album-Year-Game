@@ -65,6 +65,12 @@ button:active {
     align-items: center;
 }
 
+#top {
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 #score {
     font-size: 1rem;
     letter-spacing: 0.0625rem;
@@ -75,7 +81,9 @@ button:active {
 #header-text { 
     font-size: 2.5rem;
     font-weight: 900;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #36454f;
+    text-align: center;
 }
 
 #album-text-content {
@@ -90,10 +98,6 @@ button:active {
 #flag-artwork {
     width: 30px;
     margin-right: 5px;
-}
-
-#country-text-content { 
-    height: 5%;
 }
 
 #album-artwork {
