@@ -64,7 +64,7 @@ submitButton.addEventListener("click", function() {
 });
 // Event listener for the enter key //
 input.addEventListener("keypress", function (e) {
-    if (e.key === "Enter") {
+    if (e.code === "Enter") {
         checkAnswer();
     }
 });
