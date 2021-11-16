@@ -28,7 +28,6 @@ function randomAlbum() {
         let randomIndex                                             = Math.floor( Math.random() * (albumsArray.length) );
         albumYear                                                   = albumsArray[randomIndex].year;
         startButton.style.display                                   = "none";
-        // document.querySelector("#header-text").style.display        = "none";
         submitButton.style.visibility                               = "visible";
         input.style.visibility                                      = "visible";
         document.querySelector("#country-text-content").textContent = albumsArray[randomIndex].country;
