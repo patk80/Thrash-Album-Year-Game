@@ -72,7 +72,7 @@ input.addEventListener("keypress", function (e) {
 });
 
 //Function to check if the user's input/answer matches the selected album's data //
-function checkAnswer() {
+const checkAnswer = () => {
     // variable that converts to a number since by default input makes it a string //
     let inputValue = Number(document.querySelector("input").value);
     if(inputValue === 0){
