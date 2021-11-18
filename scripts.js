@@ -48,6 +48,7 @@ function correctAnswer() {
     currentTurn++;
     document.querySelector("#current-score-display").textContent = currentScore;
     document.querySelector("#current-turn-display").textContent = currentTurn;
+    input.value = "";
 }
 // Function to alter the screen's look and score if the user gets the answer wrong //
 function wrongAnswer() {
@@ -55,6 +56,7 @@ function wrongAnswer() {
     document.querySelector("#current-turn-display").textContent = currentTurn;
     background.classList.add("wrong-answer");
     background.classList.remove("correct-answer");
+    input.value = "";
     // alert(albumYear + " was the correct answer");
 }
 
