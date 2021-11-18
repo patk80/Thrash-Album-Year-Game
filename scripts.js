@@ -31,7 +31,7 @@ const randomAlbum = () => {
         submitButton.style.visibility                               = "visible";
         input.style.visibility                                      = "visible";
         document.querySelector("#country-text-content").textContent = albumsArray[randomIndex].country;
-        document.querySelector("#album-text-content").textContent   = albumsArray[randomIndex].artist + " – " + albumsArray[randomIndex].album;
+        document.querySelector("#album-text-content").textContent   = `${albumsArray[randomIndex].artist} – ${albumsArray[randomIndex].album}`;
         document.querySelector("#album-artwork").src                = albumsArray[randomIndex].imagePath;
         document.querySelector("#flag-artwork").src                 = albumsArray[randomIndex].countryPath;
         // add album to correctGuessesArray //
