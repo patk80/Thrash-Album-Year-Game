@@ -6,7 +6,7 @@ let currentScore   = 0;
 let currentTurn    = 0;
 
 // Function for game to select a random album from the Array and display it on the screen //
-function randomAlbum() {
+const randomAlbum = () => {
 
     // Check if it is the last album in array //
     if(albumsArray.length === 0) {
@@ -41,7 +41,7 @@ function randomAlbum() {
 };
 
 // Function to alter the screen's look and score if the user gets the answer right //
-function correctAnswer() {
+const correctAnswer = () => {
     background.classList.add("correct-answer");
     background.classList.remove("wrong-answer");
     currentScore++;
@@ -51,7 +51,7 @@ function correctAnswer() {
     input.value = "";
 }
 // Function to alter the screen's look and score if the user gets the answer wrong //
-function wrongAnswer() {
+const wrongAnswer = () => {
     currentTurn++;
     document.querySelector("#current-turn-display").textContent = currentTurn;
     background.classList.add("wrong-answer");
