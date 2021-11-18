@@ -34,6 +34,8 @@ const randomAlbum = () => {
         document.querySelector("#album-text-content").textContent   = albumsArray[randomIndex].artist + " – " + albumsArray[randomIndex].album;
         document.querySelector("#album-artwork").src                = albumsArray[randomIndex].imagePath;
         document.querySelector("#flag-artwork").src                 = albumsArray[randomIndex].countryPath;
+        // add album to correctGuessesArray //
+        correctGuessesArray.push(`${albumsArray[randomIndex].album} = ${albumsArray[randomIndex].year}`);
         // remove current album from albumsArry with splice //
         albumsArray.splice([randomIndex], 1);
     }
@@ -48,7 +50,7 @@ const correctAnswer = () => {
     currentTurn++;
     document.querySelector("#current-score-display").textContent = currentScore;
     document.querySelector("#current-turn-display").textContent = currentTurn;
-    input.value = "";
+    // input.value = "";
 }
 // Function to alter the screen's look and score if the user gets the answer wrong //
 const wrongAnswer = () => {
@@ -56,7 +58,10 @@ const wrongAnswer = () => {
     document.querySelector("#current-turn-display").textContent = currentTurn;
     background.classList.add("wrong-answer");
     background.classList.remove("correct-answer");
-    input.value = "";
+    // input.value = "";
+    // remove array from correctGuessesArray and add to incorrectGuessesArray //
+    let wrongGuess = correctGuessesArray.pop();
+    wrongGuessesArray.push(wrongGuess);
     // alert(albumYear + " was the correct answer");
 }
 

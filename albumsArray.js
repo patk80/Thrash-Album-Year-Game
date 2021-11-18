@@ -1,3 +1,7 @@
+const wrongGuessesArray = [];
+
+const correctGuessesArray = [];
+
 const albumsArray = [
     {
         album: "Show No Mercy",
