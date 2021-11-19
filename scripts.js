@@ -21,6 +21,15 @@ const randomAlbum = () => {
         document.querySelector("#score").style.display                      = "none";
         document.querySelector("#current-score-display").style.display      = "none";
         document.querySelector("#current-turn-display").style.display       = "none";
+        document.querySelector(".main-container").style.height = "auto";
+        document.querySelector(".game").style.height = "auto";
+        // display wrongGuessesArray as bulleted list on screen at end of game  //
+        let ul = document.querySelector("#wrong-guesses-ul");
+        for (i = 0; i < wrongGuessesArray.length; i++) {
+            let li = document.createElement('li');
+            li.innerHTML = wrongGuessesArray[i];
+            ul.appendChild(li);
+        }
     }
 
     // If it isn't the last album in the array, display a random album //
