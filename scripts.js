@@ -15,7 +15,7 @@ const randomAlbum = () => {
         document.querySelector("#header-text").textContent                  = "Your Score Was:";
         document.querySelector("#country-text-content").style.display       = "none";
         document.querySelector("#final-percentage").textContent             = `${((currentScore / currentTurn) * 100).toFixed(1)}%`;
-        document.querySelector("#album-text-content").style.display         = "none";
+        document.querySelector("#album-text-content").innerText             = "You missed these albums:";
         document.querySelector("#album-artwork").style.display              = "none";
         document.querySelector("#flag-artwork").style.display               = "none";
         document.querySelector("#score").style.display                      = "none";
