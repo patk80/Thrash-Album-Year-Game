@@ -22,6 +22,7 @@ const randomAlbum = () => {
         document.querySelector("#current-score-display").style.display      = "none";
         document.querySelector("#current-turn-display").style.display       = "none";
         document.querySelector(".main-container").style.height = "auto";
+        document.querySelector(".main-container").style.width = "auto";
         document.querySelector(".game").style.height = "auto";
         // display wrongGuessesArray as bulleted list on screen at end of game  //
         let ul = document.querySelector("#wrong-guesses-ul");
