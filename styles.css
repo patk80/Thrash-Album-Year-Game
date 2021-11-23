@@ -56,7 +56,7 @@ button:active {
     align-items: center;
 }
   
-.game {
+.game-container {
     background-color: #cacaca;
     width: 95%;
     height: 95%;

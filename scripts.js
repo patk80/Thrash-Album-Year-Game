@@ -1,32 +1,40 @@
-const startButton  = document.querySelector("#start-button");
-const submitButton = document.querySelector("#submit-button");
-const input        = document.querySelector("input");
-let background     = document.querySelector(".main-container");
-let currentScore   = 0;
-let currentTurn    = 0;
+const startButton       = document.querySelector("#start-button");
+const submitButton      = document.querySelector("#submit-button");
+const input             = document.querySelector("input");
+let background          = document.querySelector(".main-container");
+let gameContainer       = document.querySelector(".game-container");
+let score               = document.querySelector("#score");
+let currentScore        = 0;
 let currentScoreDisplay = document.querySelector("#current-score-display");
-let currentTurnDisplay = document.querySelector("#current-turn-display");
+let currentTurn         = 0;
+let currentTurnDisplay  = document.querySelector("#current-turn-display");
+let finalPercentage     = document.querySelector("#final-percentage");
+let headerText          = document.querySelector("#header-text");
+let albumTextContent    = document.querySelector("#album-text-content");
+let flagArtwork         = document.querySelector("#flag-artwork");
+let countryText         = document.querySelector("#country-text-content");
+let albumArtwork        = document.querySelector("#album-artwork");
 
 // Function for game to select a random album from the Array and display it on the screen //
 const randomAlbum = () => {
 
     // Check if it is the last album in array //
     if(albumsArray.length === 0) {
-        input.style.display                                                 = "none";
-        submitButton.style.display                                          = "none";
-        document.querySelector("#header-text").textContent                  = "Your Score Was:";
-        document.querySelector("#country-text-content").style.display       = "none";
-        document.querySelector("#final-percentage").textContent             = `${((currentScore / currentTurn) * 100).toFixed(1)}%`;
-        document.querySelector("#album-text-content").innerText             = "You missed these albums:";
-        document.querySelector("#album-artwork").style.display              = "none";
-        document.querySelector("#flag-artwork").style.display               = "none";
-        document.querySelector("#score").style.display                      = "none";
-        currentScoreDisplay.style.display                                   = "none";
-        currentTurnDisplay.style.display                                    = "none";
+        input.style.display               = "none";
+        submitButton.style.display        = "none";
+        headerText.textContent            = "Your Score Was:";
+        countryText.style.display         = "none";
+        finalPercentage.textContent       = `${((currentScore / currentTurn) * 100).toFixed(1)}%`;
+        albumTextContent.innerText        = "You missed these albums:";
+        albumArtwork.style.display        = "none";
+        flagArtwork.style.display         = "none";
+        score.style.display               = "none";
+        currentScoreDisplay.style.display = "none";
+        currentTurnDisplay.style.display  = "none";
         // styles to accommodate the list added below //
-        document.querySelector(".game").style.height = "auto";
-        background.style.height = "auto";
-        background.style.width = "auto";
+        gameContainer.style.height        = "auto";
+        background.style.height           = "auto";
+        background.style.width            = "auto";
         // display wrongGuessesArray as bulleted list on screen at end of game  //
         let ul = document.querySelector("#wrong-guesses-ul");
         for (i = 0; i < wrongGuessesArray.length; i++) {
@@ -38,15 +46,15 @@ const randomAlbum = () => {
 
     // If it isn't the last album in the array, display a random album //
     else{
-        let randomIndex                                             = Math.floor( Math.random() * (albumsArray.length) );
-        albumYear                                                   = albumsArray[randomIndex].year;
-        startButton.style.display                                   = "none";
-        submitButton.style.visibility                               = "visible";
-        input.style.visibility                                      = "visible";
-        document.querySelector("#country-text-content").textContent = albumsArray[randomIndex].country;
-        document.querySelector("#album-text-content").textContent   = `${albumsArray[randomIndex].artist} – ${albumsArray[randomIndex].album}`;
-        document.querySelector("#album-artwork").src                = albumsArray[randomIndex].imagePath;
-        document.querySelector("#flag-artwork").src                 = albumsArray[randomIndex].countryPath;
+        let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
+        albumYear                     = albumsArray[randomIndex].year;
+        startButton.style.display     = "none";
+        submitButton.style.visibility = "visible";
+        input.style.visibility        = "visible";
+        countryText.textContent       = albumsArray[randomIndex].country;
+        albumTextContent.textContent  = `${albumsArray[randomIndex].artist} – ${albumsArray[randomIndex].album}`;
+        albumArtwork.src              = albumsArray[randomIndex].imagePath;
+        flagArtwork.src               = albumsArray[randomIndex].countryPath;
         // add album to correctGuessesArray //
         correctGuessesArray.push(`${albumsArray[randomIndex].album} = ${albumsArray[randomIndex].year}`);
         // remove current album from albumsArry with splice //
@@ -62,20 +70,18 @@ const correctAnswer = () => {
     currentScore++;
     currentTurn++;
     currentScoreDisplay.textContent = currentScore;
-    currentTurnDisplay.textContent = currentTurn;
-    // input.value = "";
+    currentTurnDisplay.textContent  = currentTurn;
 }
+
 // Function to alter the screen's look and score if the user gets the answer wrong //
 const wrongAnswer = () => {
     currentTurn++;
     currentTurnDisplay.textContent = currentTurn;
     background.classList.add("wrong-answer");
     background.classList.remove("correct-answer");
-    // input.value = "";
     // remove array from correctGuessesArray and add to incorrectGuessesArray //
     let wrongGuess = correctGuessesArray.pop();
     wrongGuessesArray.push(wrongGuess);
-    // alert(albumYear + " was the correct answer");
 }
 
 // Event listener for the "Submit Guess" button //
