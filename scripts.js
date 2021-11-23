@@ -4,6 +4,8 @@ const input        = document.querySelector("input");
 let background     = document.querySelector(".main-container");
 let currentScore   = 0;
 let currentTurn    = 0;
+let currentScoreDisplay = document.querySelector("#current-score-display");
+let currentTurnDisplay = document.querySelector("#current-turn-display");
 
 // Function for game to select a random album from the Array and display it on the screen //
 const randomAlbum = () => {
@@ -19,8 +21,8 @@ const randomAlbum = () => {
         document.querySelector("#album-artwork").style.display              = "none";
         document.querySelector("#flag-artwork").style.display               = "none";
         document.querySelector("#score").style.display                      = "none";
-        document.querySelector("#current-score-display").style.display      = "none";
-        document.querySelector("#current-turn-display").style.display       = "none";
+        currentScoreDisplay.style.display                                   = "none";
+        currentTurnDisplay.style.display                                    = "none";
         // styles to accommodate the list added below //
         document.querySelector(".game").style.height = "auto";
         background.style.height = "auto";
@@ -59,14 +61,14 @@ const correctAnswer = () => {
     background.classList.remove("wrong-answer");
     currentScore++;
     currentTurn++;
-    document.querySelector("#current-score-display").textContent = currentScore;
-    document.querySelector("#current-turn-display").textContent = currentTurn;
+    currentScoreDisplay.textContent = currentScore;
+    currentTurnDisplay.textContent = currentTurn;
     // input.value = "";
 }
 // Function to alter the screen's look and score if the user gets the answer wrong //
 const wrongAnswer = () => {
     currentTurn++;
-    document.querySelector("#current-turn-display").textContent = currentTurn;
+    currentTurnDisplay.textContent = currentTurn;
     background.classList.add("wrong-answer");
     background.classList.remove("correct-answer");
     // input.value = "";
