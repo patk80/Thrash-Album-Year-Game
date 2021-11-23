@@ -1,6 +1,3 @@
-const startButton       = document.querySelector("#start-button");
-const submitButton      = document.querySelector("#submit-button");
-const input             = document.querySelector("input");
 let background          = document.querySelector(".main-container");
 let gameContainer       = document.querySelector(".game-container");
 let score               = document.querySelector("#score");
@@ -14,6 +11,9 @@ let albumTextContent    = document.querySelector("#album-text-content");
 let flagArtwork         = document.querySelector("#flag-artwork");
 let countryText         = document.querySelector("#country-text-content");
 let albumArtwork        = document.querySelector("#album-artwork");
+const startButton       = document.querySelector("#start-button");
+const submitButton      = document.querySelector("#submit-button");
+const input             = document.querySelector("input");
 
 // Function for game to select a random album from the Array and display it on the screen //
 const randomAlbum = () => {
