@@ -11,12 +11,18 @@
 
 .game-container {
     background-color: #cacaca;
+    font-family: 'Creepster', cursive;
     height: 100%;
-    width:100%;
+    width: 100%;
+    padding: 10px;
 }
 
 #flag-artwork {
     width: 50px;
+}
+
+#album-artwork {
+    width: 50%;
 }
 
 #input {
