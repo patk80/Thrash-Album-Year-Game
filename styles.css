@@ -79,9 +79,18 @@
 /* MEDIA QUERIES START
 */
 /*************************************************************************************************************************/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
+
     #album-artwork {
-        width: 80%;
+        width: 35%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #album-artwork {
+        width: 60%;
         height: auto;
     }
 }
