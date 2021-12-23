@@ -51,8 +51,8 @@ const randomAlbum = () => {
         let randomIndex               = Math.floor( Math.random() * (albumsArray.length) );
         albumYear                     = albumsArray[randomIndex].year;
         startButton.style.display     = "none";
-        submitButton.style.visibility = "visible";
-        input.style.visibility        = "visible";
+        submitButton.style.display = "block";
+        input.style.display        = "block";
         countryText.textContent       = albumsArray[randomIndex].country;
         artistTextContent.textContent = `${albumsArray[randomIndex].artist}`;
         albumTextContent.textContent  = `${albumsArray[randomIndex].album}`;

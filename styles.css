@@ -1,5 +1,5 @@
 /*************************************************************************************************************************/
-/* UNIVERSAL STYLES START */
+/* MAIN CONTENT STYLES START */
 /*************************************************************************************************************************/
 .main-container {
     background-color: #cacaca;
@@ -24,148 +24,15 @@
     font-family: "Montserrat", sans-serif;
     outline: none;
     text-align: center;
-    visibility: hidden;
+    display: none;
     margin: 5px 0;
     width: 75%;
     height: 38px;
 }
 
 #submit-button {
-    visibility: hidden;
+    display: none;
 }
-
-@media only screen and (max-width: 500px) {
-    #album-artwork {
-        width: 80%;
-        height: auto;
-    }
-}
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #000000;
-    height: 100%;
-}
-
-button {
-    background-color: #000000;
-    border-radius: 20px;
-    border: none;
-    color: #ffffff;
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-    outline: none;
-    padding: 0.75rem 1.75rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.5s;
-}
-
-button:hover {
-    transform: translateY(-.2rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-button:active {
-    transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
-} */
-/*************************************************************************************************************************/
-/* UNIVERSAL STYLES END */
-/*************************************************************************************************************************/
-
-
-
-/*************************************************************************************************************************/
-/* MAIN CONTENT STYLES START */
-/*************************************************************************************************************************/
-/* .main-container {
-    background-color: #cacaca;
-    font-family: "Montserrat", sans-serif;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-.game-container {
-    background-color: #cacaca;
-    width: 95%;
-    height: 95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#top {
-    background-color: #9b9b9b;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#score {
-    font-size: 1rem;
-    letter-spacing: 0.0625rem;
-    align-self: flex-start;
-    margin: 10px 0 0 10px;
-}
-
-#header-text { 
-    font-size: 2.5rem;
-    font-weight: 900;
-    padding-bottom: 10px;
-    color: #36454f;
-    text-align: center;
-}
-
-#album-text-content {
-    margin-bottom: 10px;
-}
-
-#flag-and-country-div {
-    display: flex;
-    margin-bottom: 10px;
-}
- 
-#flag-artwork {
-    width: 30px;
-    margin-right: 5px;
-}
-
-#album-artwork {
-    height: 50%;
-}
-
-#start-button {
-    margin: 1% 0;
-} 
-
-#submit-button {
-    visibility: hidden;
-}
-
-#input {
-    border-radius: 0.3125rem;
-    display: block;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5625rem;
-    height: 50px;
-    margin: 15px 0;
-    outline: none;
-    text-align: center;
-    visibility: hidden;
-}
-
-#final-percentage {
-    font-size: 100px;
-} */
 /*************************************************************************************************************************/
 /* MAIN CONTENT STYLES START */
 /*************************************************************************************************************************/
@@ -206,16 +73,12 @@ button:active {
 /* MEDIA QUERIES START
 */
 /*************************************************************************************************************************/
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     #album-artwork {
-        width: 90%;
+        width: 80%;
         height: auto;
     }
-
-    #input {
-        width: 90%;
-    }
-} */
+}
 /*************************************************************************************************************************/
 /* MEDIA QUERIES END */
 /*************************************************************************************************************************/
