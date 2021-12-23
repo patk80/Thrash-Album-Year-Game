@@ -7,6 +7,7 @@ let currentTurn         = 0;
 let currentTurnDisplay  = document.querySelector("#current-turn-display");
 let finalPercentage     = document.querySelector("#final-percentage");
 let headerText          = document.querySelector("#header-text");
+let artistTextContent   = document.querySelector("#artist-text-content");
 let albumTextContent    = document.querySelector("#album-text-content");
 let flagArtwork         = document.querySelector("#flag-artwork");
 let countryText         = document.querySelector("#country-text-content");
@@ -25,6 +26,7 @@ const randomAlbum = () => {
         headerText.textContent            = "Your Score Was:";
         countryText.style.display         = "none";
         finalPercentage.textContent       = `${((currentScore / currentTurn) * 100).toFixed(1)}%`;
+        artistTextContent.style.display   = "none";
         albumTextContent.innerText        = "You missed these albums:";
         albumArtwork.style.display        = "none";
         flagArtwork.style.display         = "none";
@@ -52,7 +54,8 @@ const randomAlbum = () => {
         submitButton.style.visibility = "visible";
         input.style.visibility        = "visible";
         countryText.textContent       = albumsArray[randomIndex].country;
-        albumTextContent.textContent  = `${albumsArray[randomIndex].artist} – ${albumsArray[randomIndex].album}`;
+        artistTextContent.textContent = `${albumsArray[randomIndex].artist}`;
+        albumTextContent.textContent  = `${albumsArray[randomIndex].album}`;
         albumArtwork.src              = albumsArray[randomIndex].imagePath;
         flagArtwork.src               = albumsArray[randomIndex].countryPath;
         // add album to correctGuessesArray //

@@ -1,7 +1,46 @@
 /*************************************************************************************************************************/
 /* UNIVERSAL STYLES START */
 /*************************************************************************************************************************/
-* {
+.main-container {
+    background-color: #cacaca;
+    font-family: 'Creepster', cursive;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+.game-container {
+    background-color: #cacaca;
+    height: 100%;
+    width:100%;
+}
+
+#flag-artwork {
+    width: 50px;
+}
+
+#input {
+    border-radius: 0.3125rem;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    text-align: center;
+    visibility: hidden;
+    margin: 5px 0;
+    width: 75%;
+    height: 38px;
+}
+
+#submit-button {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    #album-artwork {
+        width: 80%;
+        height: auto;
+    }
+}
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,7 +75,7 @@ button:hover {
 button:active {
     transform: translateY(-.1rem);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
-}
+} */
 /*************************************************************************************************************************/
 /* UNIVERSAL STYLES END */
 /*************************************************************************************************************************/
@@ -46,7 +85,7 @@ button:active {
 /*************************************************************************************************************************/
 /* MAIN CONTENT STYLES START */
 /*************************************************************************************************************************/
-.main-container {
+/* .main-container {
     background-color: #cacaca;
     font-family: "Montserrat", sans-serif;
     width: 100vw;
@@ -126,7 +165,7 @@ button:active {
 
 #final-percentage {
     font-size: 100px;
-}
+} */
 /*************************************************************************************************************************/
 /* MAIN CONTENT STYLES START */
 /*************************************************************************************************************************/
@@ -167,7 +206,7 @@ button:active {
 /* MEDIA QUERIES START
 */
 /*************************************************************************************************************************/
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     #album-artwork {
         width: 90%;
         height: auto;
@@ -176,7 +215,7 @@ button:active {
     #input {
         width: 90%;
     }
-}
+} */
 /*************************************************************************************************************************/
 /* MEDIA QUERIES END */
 /*************************************************************************************************************************/
