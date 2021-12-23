@@ -37,11 +37,20 @@
             </div>
             <!-- Row 1 End -->
 
-            <!-- Row 2 Start -->
+            <!-- Row 2 (For After Game Ends) Start -->
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <h2 id="final-percentage" class="text-center text-success"></h2>
+                    <h3 id="missed-albums-heading" class="text-center text-danger text-decoration-underline"></h3>
+                    <ul id="wrong-guesses-ul"></ul>
+                </div>
+            </div>
+            <!-- Row 2 (For After Game Ends) End -->
+
+            <!-- Row 3 Start -->
             <div class="row">
                 <!-- Artist, Album, and Country Column Start -->
                 <div class="col-sm-6 d-flex flex-column align-items-center justify-content-center">
-                    <p id="final-percentage"></p>
                     <h2 id="artist-text-content" class="m-0 display-1 text-center text-secondary">Artist</h2>
                     <h3 id="album-text-content" class="m-0 display-2 text-center">Album</h3>
                     <div id="flag-and-country-div" class="d-flex align-items-center">
@@ -58,11 +67,10 @@
                     <button id="start-button" class="mt-2 btn btn-dark" onclick="randomAlbum()">START</button>
                     <input type="text" id="input" placeholder="Album year?" maxlength="4">
                     <button id="submit-button" class="btn btn-success">Submit Guess</button>
-                    <ul id="wrong-guesses-ul"></ul>
                 </div>
                 <!-- Artwork, Input, and Button Start -->
             </div>
-            <!-- Row 2 Start -->
+            <!-- Row 3 Start -->
 
         </div>
         <!-- Game Container Start -->
