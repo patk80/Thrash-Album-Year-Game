@@ -13,40 +13,30 @@
 </head>
 
 <body>
-    <div class="main-container">
-
-        <div class="game-container">
-
-            <div id="top">
-                <div id="score">
-                    Score: <span id=current-score-display>0</span> / <span id="current-turn-display">0</span>
+    <main role="main">
+        <div class="main-container">
+            <div class="game-container">
+                <div id="top">
+                    <div id="score">
+                        Score: <span id=current-score-display>0</span> / <span id="current-turn-display">0</span>
+                    </div>
+                    <h1 id="header-text">Guess Album Year:</h1>
                 </div>
-    
-                <h1 id="header-text">Guess Album Year:</h1>
+                <p id="final-percentage"></p>
+                <h2 id="album-text-content"> Artist &ndash; Album </h2>
+                <div id="flag-and-country-div">
+                    <img id="flag-artwork" src="img/unknown-flag.png" alt="Flag Artwork">
+                    <div id="country-text-content"> City, Country </div>
+                </div>
+                <img id="album-artwork" src="img/unknown-album.jpg" alt="Album Artwork">
+                <button id="start-button" onclick="randomAlbum()">START</button>
+                <input type="text" id="input" placeholder="Album year?" maxlength="4">
+                <button id="submit-button">Submit Guess</button>
+                <ul id="wrong-guesses-ul">
+                </ul>
             </div>
-
-            <p id="final-percentage"></p>
-
-            <h2 id="album-text-content"> Artist &ndash; Album </h2>
-
-            <div id="flag-and-country-div">
-                <img id="flag-artwork" src="img/unknown-flag.png" alt="Flag Artwork">
-                <div id="country-text-content"> City, Country </div>
-            </div>
-
-            <img id="album-artwork" src="img/unknown-album.jpg" alt="Album Artwork">
-
-            <button id="start-button" onclick="randomAlbum()">START</button>
-
-            <input type="text" id="input" placeholder="Album year?" maxlength="4">
-
-            <button id="submit-button">Submit Guess</button>
-
-            <ul id="wrong-guesses-ul"></ul>
-            
         </div>
-
-    </div>
+    </main>
 
     <script src="albumsArray.js"></script>
     <script src="scripts.js"></script>
